@@ -1,0 +1,132 @@
+\section{Motivation}\index{Motivation}
+The automotive industry is today the sixth largest economy in the world, produc-
+ing around 70 million cars every year and making an important contribution to
+government revenues all around the world. As for other industries, significant
+improvements in functionalities, performance, comfort, safety, etc. are provided by
+electronic and software technologies. Indeed, since 1990, the sector of embedded elec-
+tronics, and more precisely embedded software, has been increasing at an annual rate
+shared between electronic and software components. These general trends have led to
+currently embedding up to 500 MB on more than 70 microprocessors connected
+on communication networks. The following are some of the various examples. Figure
+1.1 shows an electronic architecture embedded in a Laguna (source: Renault French
+carmaker) illustrating several computers interconnected and controlling the engine,
+the wipers, the lights, the doors, and the suspension or providing a support for inter-
+action with the driver or the passengers. In 2004, the embedded electronic system of a
+Volkswagen Phaeton was composed of more than 10,000 electrical devices, 61 micro-
+processors, three controller area networks (CAN) that support the exchanges of 2500
+pieces of data, several subnetworks, and one multimedia bus. In the Volvo S70,
+two networks support the communication between the microprocessors controlling
+the mirrors, those controlling the doors and those controlling the transmission system
+and, for example, the position of the mirrors is automatically controlled according to
+the sense the vehicle is going and the volume of the radio is adjusted to the vehi-
+cle speed, information provided, among others, by the antilock braking system (ABS)
+controller. In a recent Cadillac, when an accident causes an airbag to inflate, its micro-
+controller emits a signal to the embedded global positioning system (GPS) receiver
+that then communicates with the cell phone, making it possible to give the vehicle’s
+position to the rescue service. The software code size of the Peugeot CX model (source:
+PSA Peugeot Citroen French carmarker) was 1.1 KB in 1980, and 2 MB for the 607
+model in 2000. These are just a few examples, but there are many more that could
+illustrate this very large growth of embedded electronic systems in modern vehicles.
+The automotive industry has evolved rapidly and will evolve even more rapidly
+under the influence of several factors such as pressure from state legislation, pressure
+from customers, and technological progress (hardware and software aspects). Indeed,
+a great surge for the development of electronic control systems came through the
+regulation concerning air pollution. But we must also consider the pressure from
+Vehicle Functional Domains and Their Requirements
+consumers for more performance (at lower fuel consumption), comfort, and safety.
+Add to all this the fact that satisfying these needs and obligations is only possible
+because of technological progress.
+Electronic technology has made great strides and nowadays the quality of electronic
+components—performance, robustness, and reliability—enables using them even for
+critical systems. At the same time, the decreasing cost of electronic technology allows
+them to be used to support any function in a car. Furthermore, in the last decade,
+several automotive-embedded networks such as local interconnect networks (LIN),
+CAN, TTP/C, FlexRay, MOST, and IDB-1394 were developed. This has led to the con-
+cept of multiplexing, whose principal advantage is a significant reduction in the wiring
+cost as well as the flexibility it gives to designers; data (e.g., vehicle speed) sampled by
+one microcontroller becomes available to distant functions that need them with no
+additional sensors or links.
+Another technological reason for the increase of automotive embedded systems is
+the fact that these new hardware and software technologies facilitate the introduction
+of functions whose development would be costly or not even feasible if using only
+mechanical or hydraulic technology. Consequently, they allow to satisfy the end user
+requirements in terms of safety, comfort, and even costs. Well-known examples are
+electronic engine control, ABS, electronic stability program (ESP), active suspension,
+etc. In short, thanks to these technologies, customers can buy a safe, efficient, and
+personalized vehicle, while carmakers are able to master the differentiation between
+product variations and innovation (analysts have stated that more than 80\% of inno-
+vation, and therefore of added value, will be obtained thanks to electronic systems).
+Furthermore, it also has to be noted that some functions can only be achieved through
+digital systems. The following are some examples: (1) the mastering of air pollution
+can only be achieved by controlling the engine with complex control laws; (2) new
+engine concepts could not be implemented without an electronic control; (3) mod-
+ern stability control systems (e.g., ESP), which are based on close interaction between
+the engine, steering, and braking controllers, can be efficiently implemented using an
+embedded network.
+Last, multimedia and telematic applications in cars are increasing rapidly due to
+consumer pressure; a vehicle currently includes electronic equipment like hand-free
+phones, audio/radio devices, and navigation systems. For the passengers, a lot of
+entertainment devices, such as video equipment and communication with the out-
+side world are also available. These kinds of applications have little to do with the
+vehicle’s operation itself; nevertheless they increase significantly as part of the software
+included in a car.
+In short, it seems that electronic systems enable limitless progress. But are elec-
+tronics free from any outside pressure? No. Unfortunately, the greatest pressure on
+electronics is cost!
+Keeping in mind that the primary function of a car is to provide a safe and efficient
+means of transport, we can observe that this continuously evolving “electronic revolu-
+tion” has two primary positive consequences. The first is for the customer/consumer,
+who requires an increase in performance, comfort, assistance for mobility efficiency
+(navigation), and safety on the one hand, while on the other hand, is seeking reduced
+fuel consumption and cost. The second positive consequence is for the stakehold-
+ers, carmakers, and suppliers, because software-based technology reduces marketing
+time, development cost, production, and maintenance cost. Additionally, these inno-
+vations have a strong impact on our society because reduced fuel consumption and
+exhaust emissions improve the protection of our natural resources and the environ-
+ment, while the introduction of vision systems, driver assistance, onboard diagnosis,
+etc., targets a “zero death” rate, as has been stated in Australia, New Zealand, Sweden,
+and the United Kingdom.
+However, all these advantages are faced with an engineering challenge; there have
+been an increasing number of breakdowns due to failure in electric/electronic sys-
+tems. For example, Ref.6 indicates that, for 2003, 49.2\% of car breakdowns were
+due to such problems in Germany. The quality of a product obviously depends on
+the quality of its development, and the increasing complexity of in-vehicle embed-
+ded systems raises the problem of mastering their development. The design process
+is based on a strong cooperation between different players, in particular Tier 1 sup-
+pliers and carmakers, which involves a specific concurrent engineering approach. For
+example, in Europe or Japan, carmakers provide the specification for the subsystems
+to suppliers, who, in turn, compete to find a solution for these carmakers. The chosen
+suppliers are then in charge of the design and realization of these subsystems, includ-
+ing the software and hardware components, and possibly the mechanical or hydraulic
+parts as well. The results are furnished to the carmakers, or original equipment man-
+ufacturer (OEM), who install them into the car and test them. The last step consists of
+calibration activities where the control and regulation parameters are tuned to meet
+the required performance of the controlled systems. This activity is closely related to
+the testing activities. In the United States, this process is slightly different since the
+suppliers cannot really be considered as independent from the carmakers.
+Not all electronic systems have to meet the same level of dependability as the pre-
+vious examples. While with a multimedia system customers require a certain quality
+and performance, with a chassis control system, safety assessment is the predominant
+concern. So, the design method for each subsystem depends on different techniques.
+Nevertheless, they all have common distributed characteristics and they must all be
+at the level of quality fixed by the market, as well as meeting the safety requirements
+and the cost requirements. As there has been a significant increase in computer-
+based and distributed controllers for the core critical functions of a vehicle (power
+train, steering or braking systems, “X-by-wire” systems, etc.) for several years now,
+a standardization process is emerging for the safety assessment and certification of
+automotive-embedded systems, as has already been done for avionics and the nuclear
+industry, among others. Therefore, their development and their production need to
+be based on a suitable methodology, including their modeling, a priori evaluation and
+validation, and testing. Moreover, due to competition between carmakers or between
+suppliers to launch new products under cost, performance, reliability, and safety
+constraints, the design process has to cope with a complex optimization problem.
+In-vehicle embedded systems are usually classified according to domains
+that correspond to different functionalities, constraints, and models. They can
+be divided among “vehicle-centric” functional domains, such as power train control,
+chassis control, and active or passive safety systems and “passenger centric” functional
+Vehicle Functional Domains and Their Requirements
+domains where multimedia/telematics, body/comfort, and human–machine interface
+(HMI) can be identified.
+
+
+

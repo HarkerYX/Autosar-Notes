@@ -1,0 +1,97 @@
+\section{Cortex-R4}
+Cortex R4 processor is a midrange processor used in real-time systems.
+It implements ARM-V7R Architecture and supports THUMB-2 technology for optimum code density and processing throughput.
+The pipeline has single Arithmetic Logic Unit but uses limited dual-issuing to of instructions for efficient utilization of other resources such as registers.
+The processor has Tightly coupled Memory(TCM) port for low latency and deterministic access to local RAM in addition to caches for high performance general memory.
+The Level 1 memory and processor ports of Cortex R4 uses Error Correction Code(ECC) for greater reliability and address safety.
+An overall component level diagram of Cortex-R4 is shown below:
+\begin{figure}[h]
+	\includegraphics[scale = 0.5]{CortexR4}
+\end{figure}
+
+The main features of the Cortex-R4 are listed below:
+\begin{itemize}{}{}
+ \item A Dual issue integer unit with integral coresight logic.
+ \item High speed Advanced Microprocessor Bus Architecture(AMBA) and Advance eXtensible Interface(AXI) for master and slave interfaces.
+ \item Dynamic branch prediction with history buffer and 4-entry return stack.
+ \item Low interrupt latency.
+ \item Non Maskable Interrupt.
+ \item Optional Floating point unit.
+ \item Harvard L1 Memory system with:
+ \begin{itemize}{}{}
+ 	\item Optional Tightly Coupled Memory(TCM) with support for error correction or parity checking.
+ 	\item Optional caches with error correction codes(ECC).
+ 	\item Optional ARM-V7R Memory Protection Unit(MPU).
+ 	\item Optional parity and error correction support for all RAM blocks.
+ \end{itemize}
+ \item An L2 Memory Interface with single 64-bit master AXI interface and 64 bit slave AXI interface to TCM RAM blocks and cache RAM blocks.
+ \item A Performance measuring Unit(PMU).
+ \item Vectored Interrupt Controller(VIC).
+\end{itemize}
+
+\subsection{Components}
+
+\subsubsection{\textbf{TCM Interfaces}}
+
+TCM Interface for Cortex-R4 are composed of two interfaces, ATCM and BTCM.
+An ATCM usually holds the exception handler code that must be accessed at high speed without any cache miss.
+BTCM meanwhile holds block of data for intensive operations such as Audio and Video processing.
+
+
+\subsubsection{\textbf{Power Management}}
+
+Processor includes number of processor features for power management:
+\begin{itemize}
+	\item Accurate branch and return prediction.
+	\item Cache uses sequential access information to reduce the number of accesses.
+	\item Extensive use of clocks and gates to disable the inputs to unused functional block.
+\end{itemize}
+
+\begin{flushleft}
+Cortex-R4 supports 4 different power levels:
+\end{flushleft}
+\begin{itemize}
+	\item \textbf{Run Mode}: The normal mode where all the functionalities of the processor are available.
+	\item \textbf{Dormant Mode}:Dormant mode disables with processing logic but not the TCM and cache RAMs. Before entering the mode the processor state is saved to the memory and restored when exiting the mode.
+	\item \textbf{Standby Mode}: In standby mode most of the clocks of the device will be disabled, while the device will be kept powered on.
+	\item \textbf{Shutdown Mode}: In this mode entire device including cache and TCM logic are disable and should be saved to the external memory.
+\end{itemize}
+
+\subsubsection{\textbf{System Reset Levels}}
+The processor has following reset inputs: nRESET, PRESETDBGn, nSYSPORESET, nCPUHALT.
+Using the combination of given resets following reset modes can be realized: 
+\begin{itemize}
+	\item \textbf{Power On Reset}:Also known as hard reset or cold reset. Both nRESET and nSYSPORESET are asserted and this is done during initial system reset. This will reset entire system.
+	\item \textbf{Processor Reset}:
+	Also known as soft reset or warm-reset. nRESET is asserted while nSYSPORESET is set to 1.
+	\item \textbf{Halt}: Both nSYSPORESET and nRESET are set to 1 , while nCPUHALT is asserted by setting to 0.
+	\item \textbf{Normal Mode}: All three nRESET, nSYSPORESET and nCPUHALT are set to 1. One use case is doing DMA into TCM using the processor.
+\end{itemize}
+
+\subsection{Initialization}
+Most of the architectural registers in the processor, such as r0-r14, s0-s31 and d0-15 are not reset. Thus these needs to be reset explicitly during the initialization phase.
+So of the main activities to be carried out includes: programming registers like stack pointers, processor features and interface initialization and are mentioned below:
+\subsubsection{MPU}
+If the processor is built with Memory Protection Unit(MPU), before using it program and enable on of its region and enable MPU in system control registers.
+If MPU regions are enabled, program them to enable access to TCM regions before using them.
+\subsubsection{FPU}
+If the processor is build with Floating Point Unit, enable it before accessing VFP instructions. This is done by enabling access to FPU in Coprocessor Access Registers.
+Also enable FPU by setting the EN bit in FPEXC(Floating point Exception) register.
+\subsubsection{Cache}
+If the processor are build with instruction or data cache they must be invalidated before use otherwise the behavior is unpredictable.
+If ECC is to be supported for the cache, it must be enabled before invalidating the cache by programming the Auxiliary Control Register. This enabled correct error code or parity bits are calculated.
+
+\subsubsection{TCM}
+TCM is not explicitly initialized by Processor and as such should be initialized as per the requirement.
+Additionally main instruction may require data to be preloaded into TCM. There are multiple ways TCM memory can be preloaded and are listed below:
+\begin{itemize}
+	\item The boot code can copy the required data from ROM using the memory routine. For this TCM need to be enabled and separate base address to TCM during copy and normal program execution are provided.
+	\item Boot code includes routine to copy data from the Debug Communications Channel(DCC) to TCM.
+	\item Processor is put into debug halt state and Instruction Transfer Register(DBITR) is used to transfer data that is executed by the processor and overrides the boot code.
+	\item SoC includes DMA device which can directly write the data from ROM code to TCM through AXI slave.
+	\item Debug Access Port(DAP) can be used to generate AMBA transactions to write data directly to TCM through AXI slave.
+\end{itemize}
+Refer to Auxiliary Control Registers to check for initializing TCM with ECC\footnote{Error Correction Code}.
+Processor can be pin configured to enable TCM at reset.
+
+
