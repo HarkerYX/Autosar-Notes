@@ -1,0 +1,22 @@
+%A Heuristic algorithm for mapping autosar runnables to tasks.
+%\textbf{https://hal.archives-ouvertes.fr/hal-01341785/document}
+\section{A Novel heuristic Algorithm For Mapping AUTOSAR Runnables To Tasks.}
+
+\subsection*{Key Idea}
+Runnables represents the internal behavior of SwC in AUTOSAR and are the smallest pieces of the code to be scheduled.
+All runnables are triggered in response to an event such as timing event, data receiving or operations invoking the runnables.
+Key question is deciding upon how many tasks are required to represent a set of runnables, how to define priority and how to define activation offset and execution order of the tasks.\\
+Prominent methods of grouping the runnables to tasks are:
+\begin{itemize}
+	\item \textbf{{Periodic Solution}}: Runnables with same period are assigned to one task. WCET of the task is sum of the WCET of all the runnables mapped to it.
+	\item \textbf{Multiple Periodic Solution}: In this approach period of the task is the shortest period among different runnables mapped to it.
+	\item \textbf{Arbitrary Periodic Solution}: In this approach runnables with different approach are mapped to same task using their activation offset. period of the task is GCD of all the runnables mapped to it.
+\end{itemize}
+For APS and MPS system schedulability may be guaranteed using Rate Monotonic Period Assignment(RMPA) or Deadline Monotonic Period Assignment(DMPA).
+Currently multiple approach to mapping exists, including use of MILP, Simulated Annealing and Genetic algorithm based approach.
+
+\subsection*{Width and Scope}
+Using Audsley's approach to sort out the tasks among different schedule frames with constraint of width of the frame and the deadline of each of the runtimes.
+
+\subsection*{Conclusion}
+Neat way, but practicality is limited, as usual runtimes of tasks are grouped to common schedule tables as there functionalities are important.

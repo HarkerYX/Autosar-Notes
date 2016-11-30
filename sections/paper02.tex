@@ -1,0 +1,36 @@
+%--Adaptive runtime shaping for mixed criticality systems: Biao Hu et.al.
+\section{Adaptive Runtime Shaping for Mixed-Criticality Systems}
+\subsection*{Key Idea}
+Presents an approach to adaptively shape the inflow workload of low-critical tasks based on actual demand of high critical tasks on runtime. Compared to the shaping of the offline bound low-critical tasks event delay is reduced and system utilization is improved.
+\subsection{Width and Scope}
+Main contributions are:
+\begin{itemize}
+	 \setlength{\itemsep}{0pt}
+	 \setlength{\parskip}{0pt}
+	 \setlength{\parsep}{0pt} 
+	\item An adaptive scheme for shaping the low critical workload.
+	\item A light weight mechanism with complexity of \textit{O(m.log(n))} to refine the shaping bound.
+	\item Experimental results to show the efficiency.
+\end{itemize}
+This work build on three main approaches:
+\begin{itemize}
+	\item Real-Time interface analysis: Connecting real time interface design and calculus.
+	\item Workload prediction: Real time calculus models task activation as event, arrival curves originating from network calculus provide an upper and lower bound on number of arrival events. Prediction method based on historical arrival data. Arrival curve predicted by several stair case functions for tighter prediction.
+	\item Runtime shaping: Shapers often used in regulating packets in network. Greedy mechanism for shaping in real time systems. FPGA based shaping mechanism.
+\end{itemize}
+
+\subsection*{Experimental Approach}
+Task generation using UUnifast mechanism.
+Experiments done on MATLAB Based on RTC Tool box(Theele et.al), mainly three different shaping mechanisms are compared.
+\begin{itemize}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt} 
+	\item Shaping by offline computed bound.
+	\item Shaping by backward derivation online.
+	\item Shaping by proposed lightweight scheme.
+\end{itemize}
+\subsection*{Conclusion}
+TMD
+\subsection*{Links}
+http://www6.in.tum.de/Main/Publications/Biao2015EMSOFT.pdf

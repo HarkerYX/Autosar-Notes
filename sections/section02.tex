@@ -93,5 +93,29 @@ Additionally main instruction may require data to be preloaded into TCM. There a
 \end{itemize}
 Refer to Auxiliary Control Registers to check for initializing TCM with ECC\footnote{Error Correction Code}.
 Processor can be pin configured to enable TCM at reset.
+\section{CORTEX M0+}
+A low area low power 2 stage pipelined architecture for low power modules.\\
+compact with total of 56 instructions.\\
+Uses AHB lite bus for communication with peripherals and uses 32 bit addressing for a total of upto 4gb of addressable memory.\\
+Support two main control modes: Kernel mode and User mode.
+User mode can be further divided in to two sub categories of privileged and non-privileged.\\
+PSR or Programme status register has 3 main types: Application Program SR, Interrupt Program SR, Exception Program SR.\\
+CMSIS Support package provided, which is a a standardized way to access peripheral registers and exception vectors.\\
+Memory types can be: Normal, Device, Sharable, Strongly Ordered, Execute Never.\\
+
+Order of execution of the program instructions can be guaranteed by:
+\begin{itemize}
+	\item Data Memory Barrier(DMB): Assures that the memory operations are completed before next memory operation instruction.
+	\item Data Synchronization Barrier(DSB): Ensures that memory operations are completed before start of the next instruction execution.
+	\item Instruction Synchronization Barrier(ISB): Ensures that modification to all the instruction before this operation are reflected for all the instruction that executes after this. 
+\end{itemize}
+Some use case of these memory barriers are:
+\begin{itemize}
+	\item Vector Table: On update of vector table DMB makes sure further instructions are correctly reflected.
+	\item Self Modifying codes: Should make use of DMB followed by ISB.
+	\item Memory Map Switching: DSB followed by ISB.
+	\item MPU Programming use DSB followed by ISB.
+	\item VTOR Programming: While updating vector offset register, use DSB.
+\end{itemize}
 
 

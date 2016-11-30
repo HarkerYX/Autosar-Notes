@@ -1,0 +1,14 @@
+%Mitigating Timing Error Propagation in Mixed-Criticality Automotive Systems: Thorsten Piper et al.
+\section{Mitigating Timing Error Propagation in	Mixed-Criticality Automotive Systems}
+\subsection*{Key Idea}
+ISO26262 stipulates freedom from interferences, i.e, error should not propagate from low to high criticality tasks.
+Different from indirect protection of the critical tasks, approach provides direct low overhead protection to high critical tasks by introducing the concept of preemption budget.
+\subsection*{Width and Scope}
+Introduces the concept of Preemption Budget(PB) and its specifies the maximum amount of time for which a critical task can be preempted. This is very much similar to the concept of Adaptive Mixed Criticality scheduling with deferred Preemption(AMC-DP), which specifies a minimum amount of time for which the task has to be run without any preemption.
+Timer based approach, For critical task that are active in the run queue timer is started to limit the earliest expiring preemption time. Once the preemption time is depleted the task is moved up the run queue and made to execute for rest of its budget.
+Handles Transient error runthrough (A mechanism similar to tolerence, where tasks are allowed to stretch the budget). Transient error run through is allowed under PB due to the slack available.
+\subsection*{Experiments}
+Study of Transient and Permanent fault cases for ACC tasks.
+PBM Budget monitoring implemented under AUTOSAR, measurement made for static code size increase due to the implementation and the overhead incurred due to the budget monitoring.
+\subsection*{Conclusion}
+An alternate take on AMC-DP and Tolerance limit based approach implemented and evaluated to show low overhead.

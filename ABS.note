@@ -1,0 +1,22 @@
+- ABS(Patent notes: https://www.google.com/patents/US6122585)
+Estimating from a small number of parameters, the gradient of the friction torque that wheels of a vehicle receive from the road surface  with respect
+to the slip speed and which controls the braking force acting on the wheels.\\
+
+- Friction torque gradient estimation using: time series data from wheel speed, time series data from wheel deceleration, time series data concerning braking torque.
+- The ABS Control method comprises of two different components: Namely a servo control method for defining quantity(throttle response) that determines the wheel speed and
+a method by which gradient of friction torque is controlled to match a reference value.
+- Increasing the accuracy of the new friction gradient calculation by employing road surface friction reading using a laser scanner.
+- Altitude effect on the braking force calculation as well as throttle calculation
+- Conditional brake cylinder pressure based augmentation of the braking force.
+
+- Slip rate calculation defined by:\\
+S=(Vv*-Vw)/Vv*
+where Vv* is the actual vehicle speed, and Vw is the wheel speed.
+- Characteristic curve for slip rate to friction coefficient u.
+
+- Timely calculation of the brake force is of importance because In some cases, the wheels lapse into a locked state for a long period of time, or the braking force is reduced drastically in order to return the vehicle to an unlocked state. As a result, the behavior of the vehicle is considerably affected, resulting in an increase in the braking distance or unpleasant vibration.
+- With regard to the anti-lock brake control operation, there is a conventional technique of determining the starting point for anti-lock brake control to bring the wheel into a predetermined moving state. In this technique, the wheel speed Versus differentiated with regard to time, so that wheel deceleration dVR /dt is obtained. When the wheel deceleration dVR /dt becomes smaller than a given value -a0 (preset wheel deceleration), the brake pressure is reduced in order to prevent wheel locking.
+- This has significant cost of damping, as brake force has to repeatedly applied and removes till measure as vehicle speed is compared with the approximate speed obtained from the wheel speed.
+
+- Then, the first computation means also calculates the physical quantity related to the change of variation in the wheel speed according to the following Equation:
+yi [k]=-ωi [k]+2 ωi [k-1]-ωi [k-2].

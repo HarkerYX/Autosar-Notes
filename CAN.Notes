@@ -1,0 +1,5 @@
+Difference in the physical layer viz a viz LIN.
+Implementation of the arbitration method.
+Header structure. Noisy data handling?
+need for individual clock.?
+SJA1000 CAN based on philips.
