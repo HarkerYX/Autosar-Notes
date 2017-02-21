@@ -85,19 +85,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.11}A Novel heuristic Algorithm For Mapping AUTOSAR Runnables To Tasks.}{29}{section.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.12}Automotive Control System Notes}{30}{section.4.12}
+\contentsline {section}{\numberline {4.12}Scheduling Algorithms and OS Support for RTS.}{30}{section.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.1}Review of Engine Modelling.}{30}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.1}Key Idea}{30}{subsection.4.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.2}Review of Vehicle Dynamics.}{30}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.12.2}Ideas}{30}{subsection.4.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}In-text Elements}{31}{chapter.5}
+\contentsline {subsection}{\numberline {4.12.3}Comclusion}{30}{subsection.4.12.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}New section}{31}{section.5.1}
+\contentsline {section}{\numberline {4.13}Resource Kernels: A Resource-Centric Approach to Real-Time and Multimedia systems.}{30}{section.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{33}{chapter*.32}
+\contentsline {section}{\numberline {4.14}On Scheduling Tasks with Quick Recovery from Failure}{31}{section.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{33}{section*.33}
+\contentsline {section}{\numberline {4.15}On the Scheduling of Mixed-Criticality Real-Time Task Sets}{33}{section.4.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{33}{section*.34}
+\contentsline {chapter}{\numberline {5}Automotive control systems}{35}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Test and Measurement Methodology}{37}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}FTQ/FWQ}{37}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}In-text Elements}{39}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}New section}{39}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{41}{chapter*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{41}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{41}{section*.43}
 \contentsfinish 

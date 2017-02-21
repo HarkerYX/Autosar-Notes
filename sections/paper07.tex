@@ -1,5 +1,33 @@
 %Towards runtime adaptation in AUTOSAR.
-\section{Automotive Control System Notes}
+%\section{Automotive Control System Notes}
 
-\subsection{Review of Engine Modelling.}
-\subsection{Review of Vehicle Dynamics.}
+%\subsection{Review of Engine Modelling.}
+%\subsection{Review of Vehicle Dynamics.}
+\section{Resource Kernels: A Resource-Centric Approach to Real-Time and Multimedia systems.}
+\subsection*{Main Idea}
+Design and development of resource kernels. Resource kernels provide timely and predictable access to the multiple system resources, using of wealth of scheduling mechanism running underneath the request APIs.\\
+Main design goals:
+\begin{itemize}
+	\item Timeliness of the resources. Admission control policy shold be provided.
+	\item Efficient resource utilization. Have admission control policy with predictable results.
+	\item Enforcement and policy. Resource kernel must enforce the usage of resources such that one application does not abuse the resource usage and hurt other applications.
+	\item Resource kernel must provide access to multiple resource types including processor cycles, disk bandwidth, network bandwidth, communication buffers and virtual memory.
+	\item Portability and automation. Same resource usage can be used on multiple platforms and tuning of the parameters should be automated.
+	\item Upward compatibility with the fielded operating systems.
+\end{itemize}
+\subsection*{Concepts}
+The resource kernel gets its name from its resource centric view and its ability to:
+\begin{itemize}
+	\item Apply a uniform resource model for sharing multiple resources.
+	\item Take resource usage specification from application.
+	\item Guarantee resource allocations at admission time.
+	\item Scheduling contending activities based on well defined scheduling scheme.
+	\item Ensure timeliness by dynamically monitoring resource usage and enforcing the actual usage limits.
+\end{itemize}
+Some of the APIs to support this usage requirements are exposed which are: \textit{Create, Request, Modify, Notify, Set Attribute, Bind, Get Usage}.\\
+Resource reservations are first class entities and need to be invoked through system calls. Thus enforced by the kernel.
+\subsection*{Practical Issues}
+Using different resources together, is an impractical problem to find an optimal solution to.
+The problem of scheduling concurrent resources on multiple resources is NP-complete.\\
+One approach to this problem is resource decouping, where each of the resource involved are scheduled independent of each other. For example usage of multiple resources as is case of FFMpeg or similar system involving disk, network of cpu cycles can be split across pipelines and scheduled independently.\\
+Processor codependency is an approach to this solution where two independent resources like disk and network have a common intermediary in the form of CPU.

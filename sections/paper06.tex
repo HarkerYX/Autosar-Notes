@@ -1,1 +1,29 @@
+\section{Scheduling Algorithms and OS Support for RTS.}
+\subsection{Key Idea}
+An overview of the scheduling support in real time systems and subsequent use cases in commercial of the shelf RTOS.
+Three main type of scheduling paradigms are discussed:
+\begin{itemize}
+	\item Static table driven approaches.
+	\item Static priority driven approaches.
+	\item Dynamic planning based approaches.
+	\item Dynamic best effort approaches.
+\end{itemize}
+Discussed are table driven scheduling, priority based preemptive scheduling, cyclic scheduling.
+Cyclic scheduling resembles the schedule table approach used in autosar based systems. Here tasks are assigned one of a set of harmonic periods. 
+If purely priority driven approach is used, by using task deadlines as priorities, and without any planning, task would be preempted at any time.
+So unless the deadline is reached or task completes, whichever comes first, It is not possible to know if the task constraints are met.
+So worst case performance analysis of such a task system is necessary.\\
+When tasks are acted upon by parameters other than priority like resource requirements heuristics based approach on branch and bound are necessary.
+\subsection{Ideas}
+Priority categorization of I/O bound and CPU bound tasks in the context on non-realtime systems.
+\begin{itemize}
+	\item In addition to being intuitive, static priority assignment forgoes re-computation of the priority at runtime.
+	\item Similar to EDF, another dynamic approach to scheduling is based on laxity, or least laxity first scheduling.
+	\item Although feasibility checking on schedulability is made easier by preemption, most schedulability analysis ignores the dispatch cose associated with scheduling, which can be significant depending upon the task characteristics.
+	\item Dynamic planning based algorithm: OCBP can be considered a variant of this approach. In this approach a task is guaranteed by constructing a plan for the all the tasks that are available at its possession at the given time.
+	\item Different mechanisms to dynamic planning algorithms exist: Focused addressing, bidding algorithm, flexible algorithm or a combination of bidding/focused algorithm.
+	\item Dynamic best effort algorithm: Used in most of the multicore real time systems. Example being earliest deadline first and the least laxity first algorithms.
+\end{itemize}
+\subsection{Comclusion}
+Paper is representation of work in the area of scheduling and operating system support for the same.
 

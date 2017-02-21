@@ -1,0 +1,8 @@
+\section{FTQ/FWQ}
+%https://asc.llnl.gov/sequoia/benchmarks/FTQ_summary_v1.1.pdf
+%ASC Sequoia Benchmark Codes: https://asc.llnl.gov/sequoia/benchmarks/
+
+The FTQ/FWQ benchmarks measure hardware and software interference or 'noise' on a node from the applications perspective.\\
+FWQ(Fixed Work Quanta) and FTQ(Fixed Time Quanta) runs on each core and hardware thread within a single node via pthreads. FWQ continuously  measure the time taken to execute a fixed amount of code. FTQ repetitively works for a fixed amount of time and measure the amount of work done in the given time period.\\
+Due to the fixed work approach of FWQ, the data samples can be used to compute useful statistics (mean, standard deviation and kurtosis) of the scaled noise (sample time minus the minimum work time and scaled by the minimum work time). \\
+Due to the fixed time quanta approach of FTQ, the work data can be processes with a Fast Fourier Transform (FFT) in order to determine the temporal frequency of software interference.  This is an extremely useful tool to find sources of periodic interference such as scheduling intervals, the regular operation of daemons, etc. 
