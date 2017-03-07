@@ -101,17 +101,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Automotive control systems}{35}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Test and Measurement Methodology}{37}{chapter.6}
+\contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{35}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}FTQ/FWQ}{37}{section.6.1}
+\contentsline {section}{\numberline {5.2}Predictive Active Steering Control for Autonomous Vehicle Systems}{36}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}In-text Elements}{39}{chapter.7}
+\contentsline {subsection}{\numberline {5.2.1}overview}{36}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}New section}{39}{section.7.1}
+\contentsline {subsection}{\numberline {5.2.2}Conclusion}{37}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{41}{chapter*.41}
+\contentsline {chapter}{\numberline {6}Test and Measurement Methodology}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{41}{section*.42}
+\contentsline {section}{\numberline {6.1}Approaches to test and measurement under AUTOSAR and ISO26262}{39}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{41}{section*.43}
+\contentsline {section}{\numberline {6.2}Time measurements on TI TMS-570-LS3137}{39}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}In-text Elements}{41}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}New section}{41}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{43}{chapter*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{43}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{43}{section*.48}
 \contentsfinish 

@@ -1,0 +1,45 @@
+\section{Power-Steering Control Architecture for Automatic Driving}
+A two layered control architecture to automatically moving the steering wheel is presented.\\
+\subsection*{Overview}
+\begin{itemize}
+	\item Two layer control architecture, first layer is designed to calculate the position of the steering wheel at any time based on fuzzy logic.
+	\item The second layer is a classic control layer that moves the steering wheel to the position predicted by the first layer, monitored by Real-Time Kinematic Differential Global Positioning System(RTK-DGPS).
+	\item Comparison is done for the performance of the implementation to human driver. 
+\end{itemize}
+
+\subsection*{Key points}
+\begin{itemize}
+	\item There are two ways to implement automatic steering control, Imitating a driver or using dynamic models of car and control methods based on linear control theory.
+	\item  the main contribution
+	of this work is the combined use of a PID and a fuzzy controller
+	in a cascade-control scheme, and its application to regulate the
+	steering wheel of a mass-produced vehicle.
+	\item The sensor input comes from GPS receiver at a frequency of 10Hz.
+	\item Each measured value is compared with reference GPS trajectory. Two input variables are gathered from this comparison: the lateral and angular errors.
+	\item A Fuzzy control ingests these two inputs to generate target steering turning command.
+	\item Fuzzy control performs three main functionalities: fuzzification, inference, defuzzification. 
+	\item Two different driving conditions are handled. Straight road and curved road.
+	\item Straight road steering angles are considered short and fast reactive while curve is considered higher steering angles and slower reaction.
+	\item Steering angle is limited to 2.5\% on straight road. While in curve mode the angle is not limited.
+	\item Center-of-area method is used for defuzzification.
+	\item Each crisp value, which is left or right steering output is multiplied by square of weight and averaged over sum of weights.
+	\item The weights are calculated using Mamdani's rule inference method.
+	\item The trajectory control defined above is fed to a PID controller that is tuned on the basis of Zeigler-Nichols method and further tuned experimentally, proportional, integral and derivative gains were adjusted to yield an overdamped closed-loop response.
+	\item Proportional, integral and derivative gains were set to 20, 50 and 1000 respectively.	
+\end{itemize}
+
+\subsection*{Pseudo codes}
+\begin{algorithm}
+	\caption{First layer Fuzzy Controller}\label{fuzzy}
+	\begin{algorithmic}[1]
+		\Procedure{Fuzzy\_Rule()}{}
+		\If{\textit{Angular\_Error == Left} || \textit{Lateral\_Error == Left}} \Return Right
+		\EndIf
+		\If{\textit{Angular\_Error == Right} ||\textit{Lateral\_Error == Right}} \Return Left
+		\EndIf
+		\EndProcedure
+	\end{algorithmic}
+\end{algorithm}
+
+\subsection*{reference}
+Paper Link:

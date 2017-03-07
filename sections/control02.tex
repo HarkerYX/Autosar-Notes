@@ -1,0 +1,31 @@
+\section{Predictive Active Steering Control for Autonomous Vehicle Systems}
+A Model Predictive Control (MPC)
+approach for controlling an Active Front Steering system in an
+autonomous vehicle is presented.
+\subsection{overview}
+\begin{itemize}
+	\item Early work on active safety focused on improving longitudinal dynamics part of the motion, in particular, on more effective braking system(ABS) or traction control system(TCS). ABS increases the braking efficiency by avoiding the lock of braking wheels. TCS prevents wheel from slipping at the same time improves vehicle steerability and stability by maximising the tractive and lateral forces.
+	\item This was followed by work on vehicle stability control system known under different acronyms such as Electronic Stability Program(ESP), Vehicle Stability Control(VSC), Interactive Vehicle Dynamics(IVD), Dynamic Stability Control(DSC) etc.
+	\item Other subsystem that are being investigated involves 4 wheel steering, active steering, active suspension, active differential etc.
+	\item Focus on control of the yaw and lateral vehicle dynamics via active front steering.
+	\item The control input is the front steering angle and the goal is to follow the desired trajectory or target as close as possible while fulfilling
+	various constraints reflecting vehicle physical limits and design
+	requirements.
+	\item The future desired trajectory is known only over
+	finite horizon at each time step. This is done in the spirit of
+	Model Predictive Control.
+	\item Two different formulation of Active Front Steering Model Predictive Control is presented and analyzed.
+	\item Non Linear Vehicle model to predict future evolution of system. A non linear optimization problem is solved at each computation instance.
+	\item Second approach uses a sub-optimal MPC Controller based on successive on line linearization of the non-linear model. Approach also known as LTV(Linear Time Varying Model.)
+\end{itemize}
+subsection{Key Ideas}
+\begin{itemize}
+	\item Bicycle model for the vehicle.
+	\item Control system consisting of trajectory planning - low level control system and actuator system.
+	\item Guidance and Navigation Control System - Trajectory-Mode Generator + Trajectory-Mode Replanning + Low Level Control System.
+	\item Trajectory-Replanner :- Receding Horizon Control design.
+	\item Vehicle-Model :- Rear centered kinematic model with acceleration, steering, speed, steering rate and rollover constraints.
+	\item Computation heavy non-linear optimization model.
+\end{itemize}
+\subsection{Conclusion}
+Too complex a model to be used for analysis of the scheduling patterns.
