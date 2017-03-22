@@ -2,125 +2,137 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {I}{Part One}}{5}{part.1}
+\contentsline {part}{\@mypartnumtocformat {I}{Part One}}{7}{part.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivation}{7}{section.1.1}
+\contentsline {section}{\numberline {1.1}Motivation}{9}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Citation}{9}{section.1.2}
+\contentsline {section}{\numberline {1.2}Citation}{11}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Lists}{9}{section.1.3}
+\contentsline {section}{\numberline {1.3}Lists}{11}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Numbered List}{9}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Numbered List}{11}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Bullet Points}{9}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Bullet Points}{11}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Descriptions and Definitions}{10}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Descriptions and Definitions}{12}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Platform}{11}{chapter.2}
+\contentsline {chapter}{\numberline {2}Platform}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Cortex-R4}{11}{section.2.1}
+\contentsline {section}{\numberline {2.1}Cortex-R4}{13}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Components}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Components}{14}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textbf {TCM Interfaces}}{12}{section*.2}
+\contentsline {subsubsection}{\textbf {TCM Interfaces}}{14}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textbf {Power Management}}{12}{section*.3}
+\contentsline {subsubsection}{\textbf {Power Management}}{14}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textbf {System Reset Levels}}{12}{section*.4}
+\contentsline {subsubsection}{\textbf {System Reset Levels}}{14}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Initialization}{13}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Initialization}{15}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{MPU}{13}{section*.5}
+\contentsline {subsubsection}{MPU}{15}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{FPU}{13}{section*.6}
+\contentsline {subsubsection}{FPU}{15}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Cache}{13}{section*.7}
+\contentsline {subsubsection}{Cache}{15}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{TCM}{13}{section*.8}
+\contentsline {subsubsection}{TCM}{15}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}CORTEX M0+}{13}{section.2.2}
+\contentsline {section}{\numberline {2.2}CORTEX M0+}{15}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Autosar Internals}{15}{chapter.3}
+\contentsline {chapter}{\numberline {3}Autosar Internals}{17}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Design and Approach}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}Design and Approach}{17}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}OS Internals}{15}{section.3.2}
+\contentsline {section}{\numberline {3.2}OS Internals}{17}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}BSW Scheduler}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}BSW Scheduler}{17}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}OS Interrupts}{16}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}OS Interrupts}{18}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Time Service Module}{17}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Time Service Module}{19}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Time Base Manager}{17}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Time Base Manager}{19}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Core OS Specifications}{18}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}Core OS Specifications}{20}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Literature Survey}{21}{chapter.4}
+\contentsline {chapter}{\numberline {4}Literature Survey}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Adaptive workload management through elastic scheduling}{21}{section.4.1}
+\contentsline {section}{\numberline {4.1}Adaptive workload management through elastic scheduling}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Elastic task model for Adaptive Rate Control}{22}{section.4.2}
+\contentsline {section}{\numberline {4.2}Elastic task model for Adaptive Rate Control}{24}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Towards runtime adaptation in AUTOSAR}{23}{section.4.3}
+\contentsline {section}{\numberline {4.3}Towards runtime adaptation in AUTOSAR}{25}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Fast and Tight Analysis of AUTOSAR Schedule Tables.}{24}{section.4.4}
+\contentsline {section}{\numberline {4.4}Fast and Tight Analysis of AUTOSAR Schedule Tables.}{26}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Evaluation and Implementation of Mixed-Criticality Scheduling Approaches for Periodic Tasks}{24}{section.4.5}
+\contentsline {section}{\numberline {4.5}Evaluation and Implementation of Mixed-Criticality Scheduling Approaches for Periodic Tasks}{26}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Towards the design of certifiable mixed-criticality systems.}{24}{section.4.6}
+\contentsline {section}{\numberline {4.6}Towards the design of certifiable mixed-criticality systems.}{26}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}On the effective use of Fault injection for the assessment of AUTOSAR}{24}{section.4.7}
+\contentsline {section}{\numberline {4.7}On the effective use of Fault injection for the assessment of AUTOSAR}{26}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Adaptive Runtime Shaping for Mixed-Criticality Systems}{27}{section.4.8}
+\contentsline {section}{\numberline {4.8}Adaptive Runtime Shaping for Mixed-Criticality Systems}{29}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8.1}Width and Scope}{27}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.1}Width and Scope}{29}{subsection.4.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Deadline Analysis of AUTOSAR OS Periodic Tasks in the Presence of Interrupts}{28}{section.4.9}
+\contentsline {section}{\numberline {4.9}Deadline Analysis of AUTOSAR OS Periodic Tasks in the Presence of Interrupts}{30}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Mitigating Timing Error Propagation in Mixed-Criticality Automotive Systems}{28}{section.4.10}
+\contentsline {section}{\numberline {4.10}Mitigating Timing Error Propagation in Mixed-Criticality Automotive Systems}{30}{section.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}A Novel heuristic Algorithm For Mapping AUTOSAR Runnables To Tasks.}{29}{section.4.11}
+\contentsline {section}{\numberline {4.11}A Novel heuristic Algorithm For Mapping AUTOSAR Runnables To Tasks.}{31}{section.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.12}Scheduling Algorithms and OS Support for RTS.}{30}{section.4.12}
+\contentsline {section}{\numberline {4.12}Scheduling Algorithms and OS Support for RTS.}{32}{section.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.1}Key Idea}{30}{subsection.4.12.1}
+\contentsline {subsection}{\numberline {4.12.1}Key Idea}{32}{subsection.4.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.2}Ideas}{30}{subsection.4.12.2}
+\contentsline {subsection}{\numberline {4.12.2}Ideas}{32}{subsection.4.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.12.3}Comclusion}{30}{subsection.4.12.3}
+\contentsline {subsection}{\numberline {4.12.3}Comclusion}{32}{subsection.4.12.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.13}Resource Kernels: A Resource-Centric Approach to Real-Time and Multimedia systems.}{30}{section.4.13}
+\contentsline {section}{\numberline {4.13}Resource Kernels: A Resource-Centric Approach to Real-Time and Multimedia systems.}{32}{section.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.14}On Scheduling Tasks with Quick Recovery from Failure}{31}{section.4.14}
+\contentsline {section}{\numberline {4.14}On Scheduling Tasks with Quick Recovery from Failure}{33}{section.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.15}On the Scheduling of Mixed-Criticality Real-Time Task Sets}{33}{section.4.15}
+\contentsline {section}{\numberline {4.15}On the Scheduling of Mixed-Criticality Real-Time Task Sets}{35}{section.4.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Automotive control systems}{35}{chapter.5}
+\contentsline {section}{\numberline {4.16}Schedule Table Generation for Time-Triggered Mixed Criticality Systems: Jens Theis et.al}{35}{section.4.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{35}{section.5.1}
+\contentsline {section}{\numberline {4.17}Using Dual Priority Scheduling to Improve the Resource utilization in nMRPA Microcontrollers.}{36}{section.4.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Predictive Active Steering Control for Autonomous Vehicle Systems}{36}{section.5.2}
+\contentsline {section}{\numberline {4.18}Time-Triggered Mixed-Critical Scheduler: Dario Socci et.al}{36}{section.4.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}overview}{36}{subsection.5.2.1}
+\contentsline {chapter}{\numberline {5}Automotive control systems}{37}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Conclusion}{37}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{37}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Test and Measurement Methodology}{39}{chapter.6}
+\contentsline {section}{\numberline {5.2}Predictive Active Steering Control for Autonomous Vehicle Systems}{38}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Approaches to test and measurement under AUTOSAR and ISO26262}{39}{section.6.1}
+\contentsline {subsection}{\numberline {5.2.1}overview}{38}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Time measurements on TI TMS-570-LS3137}{39}{section.6.2}
+\contentsline {subsection}{\numberline {5.2.2}Conclusion}{39}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}In-text Elements}{41}{chapter.7}
+\contentsline {chapter}{\numberline {6}Proposed Design}{41}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}New section}{41}{section.7.1}
+\contentsline {section}{\numberline {6.1}Scheduler Design}{41}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{43}{chapter*.46}
+\contentsline {chapter}{\numberline {7}Test and Measurement Methodology}{43}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{43}{section*.47}
+\contentsline {section}{\numberline {7.1}Approaches to test and measurement under AUTOSAR and ISO26262}{43}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{43}{section*.48}
+\contentsline {section}{\numberline {7.2}Time measurements on TI TMS-570-LS3137}{43}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}A Practical Approach to the Simulation of Safety-critical Automotive Control Systems considering Complex Data Flows}{44}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}In-text Elements}{47}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}New section}{47}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{49}{chapter*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{49}{section*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{49}{section*.55}
 \contentsfinish 

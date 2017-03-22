@@ -2,3 +2,56 @@
 
 \subsection*{Main Idea}
 This paper introduces the concept of Zero slack scheduling, In zero slack scheduling the task consist of two execution modes: normal and critical. When a task is unable to meet its budget demands in normal mode, it switches to critical mode at the last instance at which it is able to meet the demand in critical mode.
+
+\section{Schedule Table Generation for Time-Triggered Mixed Criticality Systems: Jens Theis et.al}
+
+\subsection*{Main Idea}
+Heuristic search algorithm for developing schedule tables of different criticalities.
+\begin{itemize}
+	\item Builds on previous work on implementing mixed criticality in Time Triggered domain.
+	\item Two different schedule tables are maintained in the previous approach and priority of each job based on its criticality level.
+	\item The priority ordering is inflexible resulting in total utilization which is lower than EDF.
+	\item Use of mode change schedulers to accommodate two different criticality levels(Changing operational modes in the context of pre-run-time scheduling.).
+	\item Two schedule tables are constructed and switching from Lo to High is possible at every point in time called \textit{Switch through property.}
+	\item Each job consists of low and high mode states: \textit{J\textsubscript{lo} and J\textsubscript{hi}}. High critical definition consists of \textit{J\textsubscript{hi} }and \textit{$\delta$J\textsubscript{hi}}. 
+	\item Precedence constraint introduced to prevent \textit{$\delta$J\textsubscript{hi}} from getting scheduled before \textit{J\textsubscript{lo}}.
+	\item Granularity of the Scheduler is schedule table width and hence preemptible at these boundaries.
+	\item Each scheduling decision for both tables represented as an edge in search tree, based on iterative deepening.
+	\item Feasible schedule table design done using backtracking based tree search.
+	\item Concept of \textit{leeway} is introduced as heuristic function to aid backtracking mechanism. For low criticality jobs it is the difference between the current time and its deadline. For high criticality jobs it the difference between deadline of the job in low crit mode and current time, reduced by the $\delta$J\textsubscript{hi} of all jobs that could executed between current time and deadline of $\delta$J\textsubscript{hi} of current job.
+	\item During tree searching for viable schedule backtrack to previous node for a negative leeway.
+			
+\end{itemize}
+\subsection*{Model}
+\begin{itemize}
+	\item \textbf{Low crit Table}: Pick Job with earliest deadline that is released --> Consider for leeway --> Backtrack if necessary.
+	\item \textbf{High Crit Table}: Based on decision of low crit table, pick a Job. Pick a $\delta$J\textsubscript based on precedence constraint (J\textsubscript{lo} before respective $\delta$J\textsubscript{lo}). In case a $\delta$J missed its deadline backtrack.
+\end{itemize}
+\textbf{Backtracking Heuristics:}\\
+Backtracking step involves swapping current node with a node higher up in tree. And is based on:
+\begin{itemize}
+	\item Release time should be later than release time of Job i.
+	\item The leeway of possible swap slot must be greater than or equal to difference in number of slots between current slot and candidate of the swapping slot.
+	\item After swapping recalculate the leeways of these tasks.
+	\item If precedence constraint is changed or scheduled demand of $\delta$J is changed, start new schedule decision from swapped position.
+\end{itemize}
+
+
+\section{Using Dual Priority Scheduling to Improve the Resource utilization in nMRPA Microcontrollers.}
+\subsection*{Main Idea}
+Handling of tasks when the system enters a state that is different from normal running state for which certification of the system has been done.
+\begin{itemize}
+	\item Uses three different queues to separate the executing tasks, viz., run queue, interrupt queue and long task queue.
+	\item tasks are picked first from active queue, then interrupt queue and from long task queue in that order.
+	\item Over a heuristically determined number of periods, if same task is executing, it is moved to long task queue.
+	\item Main aim of the approach to bring flexibility to the static scheduler.
+\end{itemize}
+
+
+\section{Time-Triggered Mixed-Critical Scheduler: Dario Socci et.al}
+\subsection*{Main Idea}
+A scheduling approach on single core when the exact arrival time are known a priori. This paper proposes a generalization of the Single Time Table Per Mode Scheduling proposed by Baruah et.al .
+\begin{itemize}
+	\item Baruah et.al proposed time triggered version of OCBP. The scheduling algorithm uses one static table per criticality mode also known as \textit{Single Time Table Per Mode}(\textbf{STTM}).
+	\item 
+\end{itemize}
