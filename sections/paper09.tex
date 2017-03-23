@@ -55,3 +55,26 @@ A scheduling approach on single core when the exact arrival time are known a pri
 	\item Baruah et.al proposed time triggered version of OCBP. The scheduling algorithm uses one static table per criticality mode also known as \textit{Single Time Table Per Mode}(\textbf{STTM}).
 	\item 
 \end{itemize}
+
+\section{Mixed-Criticality Scheduling in Time Triggered Legacy Systems}
+\subsection*{Main Idea}
+A method to add handling of criticality changes to existing schedule tables for legacy TT systems.
+\begin{itemize}
+	\item A simple online mechanism that executes the jobs according the existing schedule table, manages a change of criticality and continues to execute the high criticality job set.
+	\item Method based on slot shifting. Table and constraints are analysed and unused resources and leeways are determined. This corresponds to spare capacity.
+	\item The \textit{spare capacity} is used to provide flexibility and handle firm aperiodic tasks at runtime.
+	\item In the offline phase of the slot shifting complex precedence constraints are resolved.
+	\item Task scheduling is considered in terms of time slots or instances. The main idea of scheduling is based on utilizing slack available in each such slot.
+	Slack calculated as:\\
+		SC\textsuperscript{LO}(I\textsubscript{i}) =$\arrowvert I_i \arrowvert$ - $\Sigma$ C\textsubscript{LO} + \textit{min}(sc\textsuperscript{LO}(I\textsubscript{i + 1}, 0)) \\
+		SC\textsuperscript{HI}(I\textsubscript{i}) =$\arrowvert I_i \arrowvert$ - $\Sigma$ C\textsubscript{HI} + \textit{min}(sc\textsuperscript{HIs}(I\textsubscript{i + 1}, 0))
+\end{itemize}
+\textbf{Online Decision Process}\\
+Three separate run queue are maintained: One for low criticality tasks, one for high and third one consisting of all the tasks.
+During scheduling, for overrun of slack for a given slot is compensated from the immediate next slot, and recovered during idle slot.
+\begin{itemize}
+	\item When the low critical slack for current slot is greater than or equal to zero(s\textsubscript{lo} >= 0), schedule tasks with earliest deadline from the runqueue.
+	\item If s\textsubscript{lo} < 0, Task with earliest deadline from the high crit runqueue.
+	\item s\textsubscript{hi} < 0, indicates possible failure of schedule.
+	\item 
+\end{itemize}
