@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.23)  23 MAR 2017 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.23)  29 MAR 2017 17:02
 entering extended mode
 **./AutosarNotes.tex
 (AutosarNotes.tex
@@ -128,6 +128,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \@float@every@algorithm=\toks22
 \c@algorithm=\count101
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks23
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
 
@@ -138,13 +146,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count102
 \c@ALG@rem=\count103
 \c@ALG@nested=\count104
-\ALG@tlm=\skip48
-\ALG@thistlm=\skip49
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
 \c@ALG@Lnr=\count105
 \c@ALG@blocknr=\count106
 \c@ALG@storecount=\count107
 \c@ALG@tmpcounter=\count108
-\ALG@tmplength=\skip50
+\ALG@tmplength=\skip52
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -174,7 +182,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks24
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
@@ -189,15 +197,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count110
 \Gm@cntv=\count111
 \c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen118
-\Gm@wd@mp=\dimen119
-\Gm@odd@mp=\dimen120
-\Gm@even@mp=\dimen121
-\Gm@layoutwidth=\dimen122
-\Gm@layoutheight=\dimen123
-\Gm@layouthoffset=\dimen124
-\Gm@layoutvoffset=\dimen125
-\Gm@dimlist=\toks24
+\Gm@bindingoffset=\dimen120
+\Gm@wd@mp=\dimen121
+\Gm@odd@mp=\dimen122
+\Gm@even@mp=\dimen123
+\Gm@layoutwidth=\dimen124
+\Gm@layoutheight=\dimen125
+\Gm@layouthoffset=\dimen126
+\Gm@layoutvoffset=\dimen127
+\Gm@dimlist=\toks25
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
@@ -214,8 +222,8 @@ File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 96.
 )
-\Gin@req@height=\dimen126
-\Gin@req@width=\dimen127
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
@@ -225,9 +233,9 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen128
-\pgfutil@tempdimb=\dimen129
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen130
+\pgfutil@tempdimb=\dimen131
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
 x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
@@ -246,30 +254,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen130
-\pgf@y=\dimen131
-\pgf@xa=\dimen132
-\pgf@ya=\dimen133
-\pgf@xb=\dimen134
-\pgf@yb=\dimen135
-\pgf@xc=\dimen136
-\pgf@yc=\dimen137
+\pgf@x=\dimen132
+\pgf@y=\dimen133
+\pgf@xa=\dimen134
+\pgf@ya=\dimen135
+\pgf@xb=\dimen136
+\pgf@yb=\dimen137
+\pgf@xc=\dimen138
+\pgf@yc=\dimen139
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count114
 \c@pgf@countb=\count115
 \c@pgf@countc=\count116
 \c@pgf@countd=\count117
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -316,12 +324,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen138
+\pgfmath@dimen=\dimen140
 \pgfmath@count=\count120
 \pgfmath@box=\box32
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -346,32 +354,32 @@ hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 "
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen139
-\pgf@picmaxx=\dimen140
-\pgf@picminy=\dimen141
-\pgf@picmaxy=\dimen142
-\pgf@pathminx=\dimen143
-\pgf@pathmaxx=\dimen144
-\pgf@pathminy=\dimen145
-\pgf@pathmaxy=\dimen146
-\pgf@xx=\dimen147
-\pgf@xy=\dimen148
-\pgf@yx=\dimen149
-\pgf@yy=\dimen150
-\pgf@zx=\dimen151
-\pgf@zy=\dimen152
+\pgf@picminx=\dimen141
+\pgf@picmaxx=\dimen142
+\pgf@picminy=\dimen143
+\pgf@picmaxy=\dimen144
+\pgf@pathminx=\dimen145
+\pgf@pathmaxx=\dimen146
+\pgf@pathminy=\dimen147
+\pgf@pathmaxy=\dimen148
+\pgf@xx=\dimen149
+\pgf@xy=\dimen150
+\pgf@yx=\dimen151
+\pgf@yy=\dimen152
+\pgf@zx=\dimen153
+\pgf@zy=\dimen154
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
 ode.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen153
-\pgf@path@lasty=\dimen154
+\pgf@path@lastx=\dimen155
+\pgf@path@lasty=\dimen156
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
 tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen155
-\pgf@shorten@start@additional=\dimen156
+\pgf@shorten@end@additional=\dimen157
+\pgf@shorten@start@additional=\dimen158
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 "
@@ -384,14 +392,14 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen157
+\pgflinewidth=\dimen159
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
 .code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen158
-\pgf@pt@y=\dimen159
-\pgf@pt@temp=\dimen160
+\pgf@pt@x=\dimen160
+\pgf@pt@y=\dimen161
+\pgf@pt@temp=\dimen162
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -407,11 +415,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 "
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen161
+\pgfarrowsep=\dimen163
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen162
+\pgf@max=\dimen164
 \pgf@sys@shading@range@num=\count123
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
 x"
@@ -443,8 +451,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen163
-\pgf@nodesepend=\dimen164
+\pgf@nodesepstart=\dimen165
+\pgf@nodesepend=\dimen166
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
@@ -458,10 +466,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen165
-\pgffor@skip=\dimen166
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen167
+\pgffor@skip=\dimen168
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -470,14 +478,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count124
-\pgfplotmarksize=\dimen167
+\pgfplotmarksize=\dimen169
 )
-\tikz@lastx=\dimen168
-\tikz@lasty=\dimen169
-\tikz@lastxsaved=\dimen170
-\tikz@lastysaved=\dimen171
-\tikzleveldistance=\dimen172
-\tikzsiblingdistance=\dimen173
+\tikz@lastx=\dimen170
+\tikz@lasty=\dimen171
+\tikz@lastxsaved=\dimen172
+\tikz@lastysaved=\dimen173
+\tikzleveldistance=\dimen174
+\tikzsiblingdistance=\dimen175
 \tikz@figbox=\box38
 \tikz@figbox@bg=\box39
 \tikz@tempbox=\box40
@@ -515,7 +523,7 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count133
-\U@D=\dimen174
+\U@D=\dimen176
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -523,31 +531,31 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip51
-\enit@outerparindent=\dimen175
-\enit@toks=\toks37
+\labelindent=\skip53
+\enit@outerparindent=\dimen177
+\enit@toks=\toks38
 \enit@inbox=\box42
 \enitdp@description=\count134
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen176
-\lightrulewidth=\dimen177
-\cmidrulewidth=\dimen178
-\belowrulesep=\dimen179
-\belowbottomsep=\dimen180
-\aboverulesep=\dimen181
-\abovetopsep=\dimen182
-\cmidrulesep=\dimen183
-\cmidrulekern=\dimen184
-\defaultaddspace=\dimen185
+\heavyrulewidth=\dimen178
+\lightrulewidth=\dimen179
+\cmidrulewidth=\dimen180
+\belowrulesep=\dimen181
+\belowbottomsep=\dimen182
+\aboverulesep=\dimen183
+\abovetopsep=\dimen184
+\cmidrulesep=\dimen185
+\cmidrulekern=\dimen186
+\defaultaddspace=\dimen187
 \@cmidla=\count135
 \@cmidlb=\count136
-\@aboverulesep=\dimen186
-\@belowrulesep=\dimen187
+\@aboverulesep=\dimen188
+\@belowrulesep=\dimen189
 \@thisruleclass=\count137
 \@lastruleclass=\count138
-\@thisrulewidth=\dimen188
+\@thisrulewidth=\dimen190
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\avant.sty"
 Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -590,10 +598,10 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks38
+\MT@toks=\toks39
 \MT@count=\count139
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen189
+\MT@outer@kern=\dimen191
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count140
 
@@ -602,7 +610,7 @@ File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
 LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip52
+\MT@outer@space=\skip54
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -611,8 +619,8 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks39
-\inpenc@posthook=\toks40
+\inpenc@prehook=\toks40
+\inpenc@posthook=\toks41
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
@@ -1024,14 +1032,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \blx@parenlevel@text=\count180
 \blx@parenlevel@foot=\count181
 \blx@sectionciteorder@0=\count182
-\labelnumberwidth=\skip53
-\labelalphawidth=\skip54
-\biblabelsep=\skip55
-\bibitemsep=\skip56
-\bibnamesep=\skip57
-\bibinitsep=\skip58
-\bibparsep=\skip59
-\bibhang=\skip60
+\labelnumberwidth=\skip55
+\labelalphawidth=\skip56
+\biblabelsep=\skip57
+\bibitemsep=\skip58
+\bibnamesep=\skip59
+\bibinitsep=\skip60
+\bibparsep=\skip61
+\bibhang=\skip62
 \blx@bcfin=\read2
 \blx@bcfout=\write5
 \c@mincomprange=\count183
@@ -1111,12 +1119,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedlanguage=\count315
 \c@pageref=\count316
 \c@savedpageref=\count317
-\shorthandwidth=\skip61
-\shortjournalwidth=\skip62
-\shortserieswidth=\skip63
-\shorttitlewidth=\skip64
-\shortauthorwidth=\skip65
-\shorteditorwidth=\skip66
+\shorthandwidth=\skip63
+\shortjournalwidth=\skip64
+\shortserieswidth=\skip65
+\shorttitlewidth=\skip66
+\shortauthorwidth=\skip67
+\shorteditorwidth=\skip68
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1180,14 +1188,14 @@ Package biblatex Warning: 'babel' option is deprecated, use 'autolang' instead.
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count327
 \calc@Bcount=\count328
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Adimen=\dimen192
+\calc@Bdimen=\dimen193
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count329
-\calc@Cskip=\skip69
+\calc@Cskip=\skip71
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -1199,18 +1207,18 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 Writing index file AutosarNotes.idx
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen192
+\ttl@leftsep=\dimen194
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip70
-\f@ncyO@elh=\skip71
-\f@ncyO@erh=\skip72
-\f@ncyO@olh=\skip73
-\f@ncyO@orh=\skip74
-\f@ncyO@elf=\skip75
-\f@ncyO@erf=\skip76
-\f@ncyO@olf=\skip77
-\f@ncyO@orf=\skip78
+\fancy@headwidth=\skip72
+\f@ncyO@elh=\skip73
+\f@ncyO@erh=\skip74
+\f@ncyO@olh=\skip75
+\f@ncyO@orh=\skip76
+\f@ncyO@elf=\skip77
+\f@ncyO@erf=\skip78
+\f@ncyO@olf=\skip79
+\f@ncyO@orf=\skip80
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -1224,15 +1232,15 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks41
-\thm@bodyfont=\toks42
-\thm@headfont=\toks43
-\thm@notefont=\toks44
-\thm@headpunct=\toks45
-\thm@preskip=\skip79
-\thm@postskip=\skip80
-\thm@headsep=\skip81
-\dth@everypar=\toks46
+\thm@style=\toks42
+\thm@bodyfont=\toks43
+\thm@headfont=\toks44
+\thm@notefont=\toks45
+\thm@headpunct=\toks46
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
+\dth@everypar=\toks47
 )
 \c@notation=\count330
 \c@dummy=\count331
@@ -1278,18 +1286,18 @@ L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
 \l__iow_current_word_int=\count346
 \l__iow_current_indentation_int=\count347
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
-\c_zero_dim=\dimen193
-\c_max_dim=\dimen194
-\l_tmpa_dim=\dimen195
-\l_tmpb_dim=\dimen196
-\g_tmpa_dim=\dimen197
-\g_tmpb_dim=\dimen198
-\c_zero_skip=\skip82
-\c_max_skip=\skip83
-\l_tmpa_skip=\skip84
-\l_tmpb_skip=\skip85
-\g_tmpa_skip=\skip86
-\g_tmpb_skip=\skip87
+\c_zero_dim=\dimen195
+\c_max_dim=\dimen196
+\l_tmpa_dim=\dimen197
+\l_tmpb_dim=\dimen198
+\g_tmpa_dim=\dimen199
+\g_tmpb_dim=\dimen256
+\c_zero_skip=\skip84
+\c_max_skip=\skip85
+\l_tmpa_skip=\skip86
+\l_tmpb_skip=\skip87
+\g_tmpa_skip=\skip88
+\g_tmpb_skip=\skip89
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -1317,13 +1325,13 @@ L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \g_tmpb_box=\box47
 L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
 \l__coffin_internal_box=\box48
-\l__coffin_internal_dim=\dimen199
-\l__coffin_offset_x_dim=\dimen256
-\l__coffin_offset_y_dim=\dimen257
-\l__coffin_x_dim=\dimen258
-\l__coffin_y_dim=\dimen259
-\l__coffin_x_prime_dim=\dimen260
-\l__coffin_y_prime_dim=\dimen261
+\l__coffin_internal_dim=\dimen257
+\l__coffin_offset_x_dim=\dimen258
+\l__coffin_offset_y_dim=\dimen259
+\l__coffin_x_dim=\dimen260
+\l__coffin_y_dim=\dimen261
+\l__coffin_x_prime_dim=\dimen262
+\l__coffin_y_prime_dim=\dimen263
 \c_empty_coffin=\box49
 \l__coffin_aligned_coffin=\box50
 \l__coffin_aligned_internal_coffin=\box51
@@ -1332,28 +1340,28 @@ L3 Module: l3coffins 2016/05/17 v6508 L3 Coffin code layer
 \l__coffin_display_coffin=\box54
 \l__coffin_display_coord_coffin=\box55
 \l__coffin_display_pole_coffin=\box56
-\l__coffin_display_offset_dim=\dimen262
-\l__coffin_display_x_dim=\dimen263
-\l__coffin_display_y_dim=\dimen264
+\l__coffin_display_offset_dim=\dimen264
+\l__coffin_display_x_dim=\dimen265
+\l__coffin_display_y_dim=\dimen266
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/05/13 v6484 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen265
-\l__box_bottom_dim=\dimen266
-\l__box_left_dim=\dimen267
-\l__box_right_dim=\dimen268
-\l__box_top_new_dim=\dimen269
-\l__box_bottom_new_dim=\dimen270
-\l__box_left_new_dim=\dimen271
-\l__box_right_new_dim=\dimen272
+\l__box_top_dim=\dimen267
+\l__box_bottom_dim=\dimen268
+\l__box_left_dim=\dimen269
+\l__box_right_dim=\dimen270
+\l__box_top_new_dim=\dimen271
+\l__box_bottom_new_dim=\dimen272
+\l__box_left_new_dim=\dimen273
+\l__box_right_new_dim=\dimen274
 \l__box_internal_box=\box57
-\l__coffin_bounding_shift_dim=\dimen273
-\l__coffin_left_corner_dim=\dimen274
-\l__coffin_right_corner_dim=\dimen275
-\l__coffin_bottom_corner_dim=\dimen276
-\l__coffin_top_corner_dim=\dimen277
-\l__coffin_scaled_total_height_dim=\dimen278
-\l__coffin_scaled_width_dim=\dimen279
+\l__coffin_bounding_shift_dim=\dimen275
+\l__coffin_left_corner_dim=\dimen276
+\l__coffin_right_corner_dim=\dimen277
+\l__coffin_bottom_corner_dim=\dimen278
+\l__coffin_top_corner_dim=\dimen279
+\l__coffin_scaled_total_height_dim=\dimen280
+\l__coffin_scaled_width_dim=\dimen281
 L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
@@ -1393,47 +1401,47 @@ Package zref Info: New property: abspage on input line 62.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip88
+\mdf@templength=\skip90
 \c@mdf@globalstyle@cnt=\count366
-\mdf@skipabove@length=\skip89
-\mdf@skipbelow@length=\skip90
-\mdf@leftmargin@length=\skip91
-\mdf@rightmargin@length=\skip92
-\mdf@innerleftmargin@length=\skip93
-\mdf@innerrightmargin@length=\skip94
-\mdf@innertopmargin@length=\skip95
-\mdf@innerbottommargin@length=\skip96
-\mdf@splittopskip@length=\skip97
-\mdf@splitbottomskip@length=\skip98
-\mdf@outermargin@length=\skip99
-\mdf@innermargin@length=\skip100
-\mdf@linewidth@length=\skip101
-\mdf@innerlinewidth@length=\skip102
-\mdf@middlelinewidth@length=\skip103
-\mdf@outerlinewidth@length=\skip104
-\mdf@roundcorner@length=\skip105
-\mdf@footenotedistance@length=\skip106
-\mdf@userdefinedwidth@length=\skip107
-\mdf@needspace@length=\skip108
-\mdf@frametitleaboveskip@length=\skip109
-\mdf@frametitlebelowskip@length=\skip110
-\mdf@frametitlerulewidth@length=\skip111
-\mdf@frametitleleftmargin@length=\skip112
-\mdf@frametitlerightmargin@length=\skip113
-\mdf@shadowsize@length=\skip114
-\mdf@extratopheight@length=\skip115
-\mdf@subtitleabovelinewidth@length=\skip116
-\mdf@subtitlebelowlinewidth@length=\skip117
-\mdf@subtitleaboveskip@length=\skip118
-\mdf@subtitlebelowskip@length=\skip119
-\mdf@subtitleinneraboveskip@length=\skip120
-\mdf@subtitleinnerbelowskip@length=\skip121
-\mdf@subsubtitleabovelinewidth@length=\skip122
-\mdf@subsubtitlebelowlinewidth@length=\skip123
-\mdf@subsubtitleaboveskip@length=\skip124
-\mdf@subsubtitlebelowskip@length=\skip125
-\mdf@subsubtitleinneraboveskip@length=\skip126
-\mdf@subsubtitleinnerbelowskip@length=\skip127
+\mdf@skipabove@length=\skip91
+\mdf@skipbelow@length=\skip92
+\mdf@leftmargin@length=\skip93
+\mdf@rightmargin@length=\skip94
+\mdf@innerleftmargin@length=\skip95
+\mdf@innerrightmargin@length=\skip96
+\mdf@innertopmargin@length=\skip97
+\mdf@innerbottommargin@length=\skip98
+\mdf@splittopskip@length=\skip99
+\mdf@splitbottomskip@length=\skip100
+\mdf@outermargin@length=\skip101
+\mdf@innermargin@length=\skip102
+\mdf@linewidth@length=\skip103
+\mdf@innerlinewidth@length=\skip104
+\mdf@middlelinewidth@length=\skip105
+\mdf@outerlinewidth@length=\skip106
+\mdf@roundcorner@length=\skip107
+\mdf@footenotedistance@length=\skip108
+\mdf@userdefinedwidth@length=\skip109
+\mdf@needspace@length=\skip110
+\mdf@frametitleaboveskip@length=\skip111
+\mdf@frametitlebelowskip@length=\skip112
+\mdf@frametitlerulewidth@length=\skip113
+\mdf@frametitleleftmargin@length=\skip114
+\mdf@frametitlerightmargin@length=\skip115
+\mdf@shadowsize@length=\skip116
+\mdf@extratopheight@length=\skip117
+\mdf@subtitleabovelinewidth@length=\skip118
+\mdf@subtitlebelowlinewidth@length=\skip119
+\mdf@subtitleaboveskip@length=\skip120
+\mdf@subtitlebelowskip@length=\skip121
+\mdf@subtitleinneraboveskip@length=\skip122
+\mdf@subtitleinnerbelowskip@length=\skip123
+\mdf@subsubtitleabovelinewidth@length=\skip124
+\mdf@subsubtitlebelowlinewidth@length=\skip125
+\mdf@subsubtitleaboveskip@length=\skip126
+\mdf@subsubtitlebelowskip@length=\skip127
+\mdf@subsubtitleinneraboveskip@length=\skip128
+\mdf@subsubtitleinnerbelowskip@length=\skip129
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
@@ -1443,33 +1451,33 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box61
 \mdf@splitbox@two=\box62
 \mdf@splitbox@save=\box63
-\mdfsplitboxwidth=\skip128
-\mdfsplitboxtotalwidth=\skip129
-\mdfsplitboxheight=\skip130
-\mdfsplitboxdepth=\skip131
-\mdfsplitboxtotalheight=\skip132
-\mdfframetitleboxwidth=\skip133
-\mdfframetitleboxtotalwidth=\skip134
-\mdfframetitleboxheight=\skip135
-\mdfframetitleboxdepth=\skip136
-\mdfframetitleboxtotalheight=\skip137
-\mdffootnoteboxwidth=\skip138
-\mdffootnoteboxtotalwidth=\skip139
-\mdffootnoteboxheight=\skip140
-\mdffootnoteboxdepth=\skip141
-\mdffootnoteboxtotalheight=\skip142
-\mdftotallinewidth=\skip143
-\mdfboundingboxwidth=\skip144
-\mdfboundingboxtotalwidth=\skip145
-\mdfboundingboxheight=\skip146
-\mdfboundingboxdepth=\skip147
-\mdfboundingboxtotalheight=\skip148
-\mdf@freevspace@length=\skip149
-\mdf@horizontalwidthofbox@length=\skip150
-\mdf@verticalmarginwhole@length=\skip151
-\mdf@horizontalspaceofbox=\skip152
-\mdfsubtitleheight=\skip153
-\mdfsubsubtitleheight=\skip154
+\mdfsplitboxwidth=\skip130
+\mdfsplitboxtotalwidth=\skip131
+\mdfsplitboxheight=\skip132
+\mdfsplitboxdepth=\skip133
+\mdfsplitboxtotalheight=\skip134
+\mdfframetitleboxwidth=\skip135
+\mdfframetitleboxtotalwidth=\skip136
+\mdfframetitleboxheight=\skip137
+\mdfframetitleboxdepth=\skip138
+\mdfframetitleboxtotalheight=\skip139
+\mdffootnoteboxwidth=\skip140
+\mdffootnoteboxtotalwidth=\skip141
+\mdffootnoteboxheight=\skip142
+\mdffootnoteboxdepth=\skip143
+\mdffootnoteboxtotalheight=\skip144
+\mdftotallinewidth=\skip145
+\mdfboundingboxwidth=\skip146
+\mdfboundingboxtotalwidth=\skip147
+\mdfboundingboxheight=\skip148
+\mdfboundingboxdepth=\skip149
+\mdfboundingboxtotalheight=\skip150
+\mdf@freevspace@length=\skip151
+\mdf@horizontalwidthofbox@length=\skip152
+\mdf@verticalmarginwhole@length=\skip153
+\mdf@horizontalspaceofbox=\skip154
+\mdfsubtitleheight=\skip155
+\mdfsubsubtitleheight=\skip156
 \c@mdfcountframes=\count367
 
 ****** mdframed patching \endmdf@trivlist
@@ -1492,8 +1500,8 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count371
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\esp=\skip155
-\ecart=\skip156
+\esp=\skip157
+\ecart=\skip158
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
@@ -1530,7 +1538,7 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen280
+\@linkdim=\dimen282
 \Hy@linkcounter=\count372
 \Hy@pagecounter=\count373
 
@@ -1553,10 +1561,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count375
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen281
+\XeTeXLinkMargin=\dimen283
 \Fld@menulength=\count376
-\Field@Width=\dimen282
-\Fld@charsize=\dimen283
+\Field@Width=\dimen284
+\Fld@charsize=\dimen285
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -1584,7 +1592,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip157
+\Hy@SectionHShift=\skip159
 )
 
 Package hyperref Warning: Option `backref' has already been used,
@@ -1634,37 +1642,37 @@ LaTeX Warning: Label `abs' multiply defined.
 )
 \openout1 = `AutosarNotes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 59.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count386
-\scratchdimen=\dimen284
+\scratchdimen=\dimen286
 \scratchbox=\box64
 \nofMPsegments=\count387
 \nofMParguments=\count388
-\everyMPshowfont=\toks47
+\everyMPshowfont=\toks48
 \MPscratchCnt=\count389
-\MPscratchDim=\dimen285
+\MPscratchDim=\dimen287
 \MPnumerator=\count390
 \makeMPintoPDFobject=\count391
-\everyMPtoPDFconversion=\toks48
+\everyMPtoPDFconversion=\toks49
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1712,7 +1720,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1732,50 +1740,49 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `AutosarNotes.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'AutosarNotes.bbl' not found.
+Package biblatex Info: ... file 'AutosarNotes.bbl' found.
 
-No file AutosarNotes.bbl.
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+(AutosarNotes.bbl)
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 58.
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package hyperref Info: Link coloring OFF on input line 59.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count392
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
 <background.png, id=6, 1204.5pt x 903.375pt>
 File: background.png Graphic file (type png)
  <use background.png>
-Package pdftex.def Info: background.png used on input line 70.
+Package pdftex.def Info: background.png used on input line 71.
 (pdftex.def)             Requested size: 597.50787pt x 448.14381pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 71.
-LaTeX Font Info:    Try loading font information for T1+pag on input line 71.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 72.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pag.fd"
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 72.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 71.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 72.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pag' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 73.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 73.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 73
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 74
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
@@ -1785,35 +1792,35 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 74
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 74
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 73
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 74
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1824,28 +1831,28 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Program Files/MiKTeX 2
 .9/tex/plain/present/background.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 88.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 93.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 94.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1854,13 +1861,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 93.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -1870,7 +1877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 File: Pictures/automotive_electronics_overview.pdf Graphic file (type pdf)
  <use Pictures/automotive_electronics_overview.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics_overview.pdf used on i
-nput line 107.
+nput line 108.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
  (AutosarNotes.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <14.4> not available
@@ -1912,9 +1919,9 @@ lity Schedul-ing Ap-proaches
 ]
 \c@ttl@toc@default=\count393
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <220> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 117.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 117.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 118.
  (AutosarNotes.ptc
 Underfull \hbox (badness 2717) in paragraph at lines 84--84
 []|| [][]\T1/pag/m/n/10 (+20) Mitigating Tim-ing Er-ror Prop-a-ga-tion in Mixed
@@ -1933,19 +1940,19 @@ Underfull \hbox (badness 2564) in paragraph at lines 108--108
 
 )
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <30> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 117.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 117.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 118.
  [7
 
 ] [8]
 Chapter 1.
-<Pictures/automotive_electronics.pdf, id=351, 845.04686pt x 597.50786pt>
+<Pictures/automotive_electronics.pdf, id=358, 845.04686pt x 597.50786pt>
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 125.
+ 126.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
  (sections/section01.tex
 Underfull \vbox (badness 1400) has occurred while \output is active []
@@ -1957,24 +1964,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10])
 
-LaTeX Warning: Citation 'book_key' on page 11 undefined on input line 135.
+LaTeX Warning: Citation 'book_key' on page 11 undefined on input line 136.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
 
-LaTeX Warning: Citation 'article_key' on page 11 undefined on input line 135.
+LaTeX Warning: Citation 'article_key' on page 11 undefined on input line 136.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 141.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 [11] [12]
 Chapter 2.
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 170.
+ 171.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
  (sections/section02.tex
-<Pictures/CortexR4.pdf, id=380, 642.4pt x 481.8pt>
+<Pictures/CortexR4.pdf, id=387, 642.4pt x 481.8pt>
 File: Pictures/CortexR4.pdf Graphic file (type pdf)
  <use Pictures/CortexR4.pdf>
 Package pdftex.def Info: Pictures/CortexR4.pdf used on input line 9.
@@ -1997,10 +2004,10 @@ Chapter 3.
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 173.
+ 174.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
  (sections/section03.tex
-<Pictures/BSW_Schduler.png, id=413, 831.105pt x 699.61375pt>
+<Pictures/BSW_Schduler.png, id=420, 831.105pt x 699.61375pt>
 File: Pictures/BSW_Schduler.png Graphic file (type png)
 
 <use Pictures/BSW_Schduler.png>
@@ -2009,14 +2016,14 @@ Package pdftex.def Info: Pictures/BSW_Schduler.png used on input line 30.
  [17
 
 ] [18 <./Pictures/BSW_Schduler.png>]
-<Pictures/Global_Time_Base.png, id=422, 895.345pt x 579.16376pt>
+<Pictures/Global_Time_Base.png, id=429, 895.345pt x 579.16376pt>
 File: Pictures/Global_Time_Base.png Graphic file (type png)
 
 <use Pictures/Global_Time_Base.png>
 Package pdftex.def Info: Pictures/Global_Time_Base.png used on input line 68.
 (pdftex.def)             Requested size: 447.6714pt x 289.58116pt.
 
-<Pictures/Schedule_Table.png, id=423, 992.70876pt x 393.47pt>
+<Pictures/Schedule_Table.png, id=430, 992.70876pt x 393.47pt>
 File: Pictures/Schedule_Table.png Graphic file (type png)
 
 <use Pictures/Schedule_Table.png>
@@ -2035,7 +2042,7 @@ Chapter 4.
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 176.
+ 177.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
  (sections/section04.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
@@ -2045,7 +2052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 [23]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
- <Pictures/Elasic_algo.png, id=447, 544.0325pt x 911.405pt>
+ <Pictures/Elasic_algo.png, id=454, 544.0325pt x 911.405pt>
 File: Pictures/Elasic_algo.png Graphic file (type png)
 
 <use Pictures/Elasic_algo.png>
@@ -2060,7 +2067,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 39--43
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<Pictures/Adaptation_Manager.png, id=453, 679.53876pt x 312.16624pt>
+<Pictures/Adaptation_Manager.png, id=460, 679.53876pt x 312.16624pt>
 File: Pictures/Adaptation_Manager.png Graphic file (type png)
 
 <use Pictures/Adaptation_Manager.png>
@@ -2079,14 +2086,14 @@ l-ing Ap-proaches
  []
 
 ) (sections/paper01.tex [26 <./Pictures/Adaptation_Manager.png>]
-<Pictures/Grinder_Extension.png, id=464, 607.26875pt x 220.825pt>
+<Pictures/Grinder_Extension.png, id=471, 607.26875pt x 220.825pt>
 File: Pictures/Grinder_Extension.png Graphic file (type png)
 
 <use Pictures/Grinder_Extension.png>
 Package pdftex.def Info: Pictures/Grinder_Extension.png used on input line 36.
 (pdftex.def)             Requested size: 400.0pt x 145.45853pt.
 
-<Pictures/GRINDER_Arch.png, id=465, 676.5275pt x 292.09125pt>
+<Pictures/GRINDER_Arch.png, id=472, 676.5275pt x 292.09125pt>
 File: Pictures/GRINDER_Arch.png Graphic file (type png)
 
 <use Pictures/GRINDER_Arch.png>
@@ -2096,13 +2103,13 @@ Package pdftex.def Info: Pictures/GRINDER_Arch.png used on input line 43.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./Pictures/Grinder_Extension.png>]
-<Pictures/ABS.png, id=473, 601.24625pt x 372.39125pt>
+<Pictures/ABS.png, id=480, 601.24625pt x 372.39125pt>
 File: Pictures/ABS.png Graphic file (type png)
  <use Pictures/ABS.png>
 Package pdftex.def Info: Pictures/ABS.png used on input line 51.
 (pdftex.def)             Requested size: 400.0pt x 247.7564pt.
 
-<Pictures/Task.png, id=474, 562.1pt x 196.735pt>
+<Pictures/Task.png, id=481, 562.1pt x 196.735pt>
 File: Pictures/Task.png Graphic file (type png)
  <use Pictures/Task.png>
 Package pdftex.def Info: Pictures/Task.png used on input line 65.
@@ -2112,7 +2119,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./Pictures/GRINDER_Arch.png> <./Pictures/ABS.png>]) (sections/paper02.tex
  [29 <./Pictures/Task.png>]) (sections/paper03.tex
-<Pictures/Autosar_TTI_Bound.png, id=490, 902.37125pt x 201.75375pt>
+<Pictures/Autosar_TTI_Bound.png, id=497, 902.37125pt x 201.75375pt>
 File: Pictures/Autosar_TTI_Bound.png Graphic file (type png)
 
 <use Pictures/Autosar_TTI_Bound.png>
@@ -2126,7 +2133,7 @@ Overfull \hbox (1.37585pt too wide) in paragraph at lines 2--2
 
 [30 <./Pictures/Autosar_TTI_Bound.png>]) (sections/paper05.tex)
 (sections/paper06.tex [31]) (sections/paper07.tex [32]) (sections/paper08.tex
-<Pictures/paper08_schedule.pdf, id=520, 597.50786pt x 845.04686pt>
+<Pictures/paper08_schedule.pdf, id=527, 597.50786pt x 845.04686pt>
 File: Pictures/paper08_schedule.pdf Graphic file (type pdf)
 
 <use Pictures/paper08_schedule.pdf>
@@ -2137,103 +2144,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--20
 
  []
 
-[33]) (sections/paper09.tex [34 <./Pictures/paper08_schedule.pdf>] [35])
+[33]) (sections/paper09.tex [34 <./Pictures/paper08_schedule.pdf>] [35]
 [36]
-Chapter 5.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 188.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/control01.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-[37
-
-]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 33.
-) (sections/control02.tex [38]) [39] [40
-
-]
-Chapter 6.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 192.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/design01.tex) [41] [42
-
-]
-Chapter 7.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 194.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section07.tex)
-(sections/section08.tex) (sections/test03.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-<Pictures/Event-chain.png, id=609, 655.44875pt x 430.60875pt>
-File: Pictures/Event-chain.png Graphic file (type png)
-
-<use Pictures/Event-chain.png>
-Package pdftex.def Info: Pictures/Event-chain.png used on input line 17.
-(pdftex.def)             Requested size: 369.88582pt x 243.00528pt.
- [44 <./Pictures/Event-chain.png>])
 
 Package Fancyhdr Warning: \headheight is too small (14.5pt): 
  Make it at least 25.85417pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] [46
+[37]) [38]
+Chapter 5.
+File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
+<use Pictures/automotive_electronics.pdf>
+Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
+ 189.
+(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
+ (sections/control01.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[39
+
+]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 33.
+) (sections/control02.tex [40]) [41] [42
+
+]
+Chapter 6.
+File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
+<use Pictures/automotive_electronics.pdf>
+Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
+ 193.
+(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
+ (sections/design01.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 2.
+
+) [43] [44
+
+]
+Chapter 7.
+File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
+<use Pictures/automotive_electronics.pdf>
+Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
+ 195.
+(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
+ (sections/section07.tex)
+(sections/section08.tex) (sections/test03.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+<Pictures/Event-chain.png, id=630, 655.44875pt x 430.60875pt>
+File: Pictures/Event-chain.png Graphic file (type png)
+
+<use Pictures/Event-chain.png>
+Package pdftex.def Info: Pictures/Event-chain.png used on input line 17.
+(pdftex.def)             Requested size: 369.88582pt x 243.00528pt.
+ [46 <./Pictures/Event-chain.png>])
+
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+ Make it at least 25.85417pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47] [48
 
 ]
 Chapter 8.
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 198.
+ 199.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- [47] [48
+ [49] [50
 
 ]
 File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
 
 <use Pictures/automotive_electronics.pdf>
 Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 385.
+ 386.
 (pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
 
 
-Package biblatex Warning: Type 'book' not found on input line 389.
+Package biblatex Warning: Type 'book' not found on input line 390.
 
 
-LaTeX Warning: Empty bibliography on input line 389.
+LaTeX Warning: Empty bibliography on input line 390.
 
 
-Package biblatex Warning: Type 'article' not found on input line 392.
+Package biblatex Warning: Type 'article' not found on input line 393.
 
 
-LaTeX Warning: Empty bibliography on input line 392.
+LaTeX Warning: Empty bibliography on input line 393.
 
-[49] [50
+[51] [52
 
 ]
 No file AutosarNotes.ind.
 \tf@ptc=\write8
 \openout8 = `AutosarNotes.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
 (AutosarNotes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 407.
 
 
 LaTeX Warning: There were undefined references.
@@ -2251,15 +2270,21 @@ Package logreq Info: Writing requests to 'AutosarNotes.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35573 strings out of 493335
- 652161 string characters out of 3139260
- 1189991 words of memory out of 3000000
- 38038 multiletter control sequences out of 15000+200000
- 134554 words of font info for 311 fonts, out of 3000000 for 9000
+ 35635 strings out of 493335
+ 652858 string characters out of 3139260
+ 1190752 words of memory out of 3000000
+ 38081 multiletter control sequences out of 15000+200000
+ 135017 words of font info for 314 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,55p,10517b,2526s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.57} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.62} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.58} has been referenced but does not exist
+, replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\bibin\A
 ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk><C:/Prog
@@ -2271,9 +2296,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on AutosarNotes.pdf (50 pages, 1528695 bytes).
+Output written on AutosarNotes.pdf (52 pages, 1537747 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 63949 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 906 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 63957 words of extra memory for PDF output out of 74296 (max. 10000000)
 

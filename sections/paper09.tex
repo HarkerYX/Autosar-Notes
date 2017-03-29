@@ -78,3 +78,64 @@ During scheduling, for overrun of slack for a given slot is compensated from the
 	\item s\textsubscript{hi} < 0, indicates possible failure of schedule.
 	\item 
 \end{itemize}
+
+\section{Integrated Time- and Event-Triggered Scheduling: Overhead analysis on ARM Architecture.}
+\subsection*{Main Idea}
+Analyses the slot shifting approach to integrate time triggered and event triggered scheduling of Real Time Systems.
+\begin{itemize}
+	\item Implements a slot shifting algorithm and analyses the cost of adding flexibility to offline schedules due to addition of aperiodic tasks.
+	\item Three important issues are considered: 
+	\begin{itemize}
+		\item While measuring runtimes, avoid distortions caused by other processes executing in the system or caused by interrupts of the hardware systems.
+		\item The operating system can be a source of distortion in measurement, as processes running in parallel can trigger actions on the bus and can result in unpredictable cache behaviours.
+		\item A suitable platform is required to reproduce runtime information.
+	\end{itemize}
+	\item MPARM hardware simulator is used for the experiments.
+\end{itemize}
+\subsection*{Model and Notes}
+\begin{itemize}
+	\item Background discusses some previous approaches in this direction, to assign aperiodic task along with periodic tasks.
+	\item Discusses usage of server task to reserve bandwidth for aperiodic task. Other server algorithms are noted.Advantage being better service for aperiodic tasks at the cost of pessimistic reservation of the bandwidth.
+	\item Constant bandwidth servers are similarly mentioned, which in addition to providing service to aperiodic tasks maintains temporal isolation.
+	\item Slack stealing algorithm, acting as master procrastinator with periodic tasks to service aperiodic tasks, But hampered by excessing computation costs.
+\end{itemize}
+\subsubsection*{Slot Shifting Algorithm}
+\begin{itemize}
+	\item Aims for predictable flexibility on top of an offline schedule.
+	\item Consists of an offline and online component.
+	\item \textbf{Offline Mode}:
+	\begin{itemize}
+		\item Create distributed schedule table with precedence.
+		\item Determine earliest start time and latest finishing time for all tasks.
+		\item On each node, deadlines of all tasks are sorted and offline schedule is divided into disjoint intervals(In AUTOSAR world: Schedule Table.), with each interval consisting of tasks with same deadline.
+		\item Slack in system defined as:\\
+		sc(\textit{I\textsubscript{j}}) = |\textit{I\textsubscript{j}}| - $\Sigma$ \textit{WCET(T\textsubscript{i})} + \textit{min(sc(I\textsubscript{j+1}), 0)}, Where \textit{I\textsubscript{j}} is the effective width of time interval.
+		\item So slack is interval width decreased by sum of WCET of tasks belonging to given interval and amount of slot/slack lent to next time interval.
+	\end{itemize}
+\item \textbf{Online Mode}:
+	\begin{itemize}
+		\item For each new slot(strict, periodically repeating, time-interval. Roughly equivalent to time-tick cost + a non-preemptible width.), scheduler invoked on each node independently. Each slot having scheduling cost(t\textsubscript{s}) and execution budget(t\textsubscript{e}).
+		\item Each schedule point, check for aperiodic task arrival, \textbf{check for total slack available till deadline of aperiodic task, if it meets the task demand run the aperiodic task else reject.}
+		\item Similarly for an idle instance, run aperiodic task, decrease from current time interval.
+	\end{itemize}
+\end{itemize}
+\subsubsection*{Implementation}
+\begin{itemize}
+	\item \textit{task\_list} and \textit{interval\_list}: interval list maintains grouped tasks and trigger events.
+	\item Timer ISR to run the decision algorithm on aperiodic tasks.
+	\item Aperiodic tasks arrived handled in earliest deadline first.
+	\item Accommodating aperiodic task done either by running in background or recreating the tables till the aperiodic task deadline.(Done only if task passes acceptance test.)	
+\end{itemize}
+\subsubsection*{Experiment}
+\begin{itemize}
+	\item Simulator based test bed.
+	\item logging in shared memory and dump to interface to reduce overhead.
+	\item Experiment 1: Overhead of slot shifting online algorithm.
+	\item Experiment 2: Overhead of online splitting of schedule table.
+	\item Experiment 3: Optimizing splitting overhead by aligning aperiodic task to existing time interval boundary.
+	\item Experiment 4: Scalability on multicore.
+	\item Aggregated histogram plot on logging overhead, ISR overhead, schedule list updation overhead, acceptance test overhead, polling for aperiodic task overhead.
+	\item Memory overhead analysis.
+\end{itemize}
+
+

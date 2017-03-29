@@ -107,35 +107,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.19}Mixed-Criticality Scheduling in Time Triggered Legacy Systems}{36}{section.4.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Automotive control systems}{37}{chapter.5}
+\contentsline {section}{\numberline {4.20}Integrated Time- and Event-Triggered Scheduling: Overhead analysis on ARM Architecture.}{37}{section.4.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{37}{section.5.1}
+\contentsline {chapter}{\numberline {5}Automotive control systems}{39}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Predictive Active Steering Control for Autonomous Vehicle Systems}{38}{section.5.2}
+\contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{39}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}overview}{38}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.2}Predictive Active Steering Control for Autonomous Vehicle Systems}{40}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Conclusion}{39}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.1}overview}{40}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Proposed Design}{41}{chapter.6}
+\contentsline {subsection}{\numberline {5.2.2}Conclusion}{41}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Scheduler Design}{41}{section.6.1}
+\contentsline {chapter}{\numberline {6}Proposed Design}{43}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Test and Measurement Methodology}{43}{chapter.7}
+\contentsline {section}{\numberline {6.1}Scheduler Design}{43}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Approaches to test and measurement under AUTOSAR and ISO26262}{43}{section.7.1}
+\contentsline {chapter}{\numberline {7}Test and Measurement Methodology}{45}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Time measurements on TI TMS-570-LS3137}{43}{section.7.2}
+\contentsline {section}{\numberline {7.1}Approaches to test and measurement under AUTOSAR and ISO26262}{45}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}A Practical Approach to the Simulation of Safety-critical Automotive Control Systems considering Complex Data Flows}{44}{section.7.3}
+\contentsline {section}{\numberline {7.2}Time measurements on TI TMS-570-LS3137}{45}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}In-text Elements}{47}{chapter.8}
+\contentsline {section}{\numberline {7.3}A Practical Approach to the Simulation of Safety-critical Automotive Control Systems considering Complex Data Flows}{46}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}New section}{47}{section.8.1}
+\contentsline {chapter}{\numberline {8}In-text Elements}{49}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{49}{chapter*.54}
+\contentsline {section}{\numberline {8.1}New section}{49}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{49}{section*.55}
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{51}{chapter*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{49}{section*.56}
+\contentsline {section}{Books}{51}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{51}{section*.61}
 \contentsfinish 
