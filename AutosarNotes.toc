@@ -20,17 +20,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Platform}{13}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Cortex-R4}{13}{section.2.1}
+\contentsline {section}{\numberline {2.1}Hardware Platform}{13}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Components}{14}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Architecture: Cortex-R4}{13}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Components}{14}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\textbf {TCM Interfaces}}{14}{section*.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\textbf {Power Management}}{14}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\textbf {System Reset Levels}}{14}{section*.4}
+\contentsline {subsubsection}{\textbf {System Reset Levels}}{15}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Initialization}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Initialization}{15}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{MPU}{15}{section*.5}
 \defcounter {refsection}{0}\relax 
@@ -40,7 +42,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{TCM}{15}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}CORTEX M0+}{15}{section.2.2}
+\contentsline {section}{\numberline {2.2}CORTEX M0+}{16}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}AUTOSAR Specific Features}{16}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Timing Protection Support}{16}{section*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Autosar Internals}{17}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -57,6 +63,8 @@
 \contentsline {subsection}{\numberline {3.2.4}Time Base Manager}{19}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.5}Core OS Specifications}{20}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.6}Mode Change Support}{21}{subsection.3.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Literature Survey}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -108,6 +116,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.20}Integrated Time- and Event-Triggered Scheduling: Overhead analysis on ARM Architecture.}{37}{section.4.20}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.21}RTOS support for mixed time-triggered and event-triggered task sets}{38}{section.4.21}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Automotive control systems}{39}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Power-Steering Control Architecture for Automatic Driving}{39}{section.5.1}
@@ -134,9 +144,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.1}New section}{49}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{51}{chapter*.59}
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{51}{chapter*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Books}{51}{section*.60}
+\contentsline {section}{Books}{51}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Articles}{51}{section*.61}
+\contentsline {section}{Articles}{51}{section*.65}
 \contentsfinish 

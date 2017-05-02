@@ -76,8 +76,9 @@ During scheduling, for overrun of slack for a given slot is compensated from the
 	\item When the low critical slack for current slot is greater than or equal to zero(s\textsubscript{lo} >= 0), schedule tasks with earliest deadline from the runqueue.
 	\item If s\textsubscript{lo} < 0, Task with earliest deadline from the high crit runqueue.
 	\item s\textsubscript{hi} < 0, indicates possible failure of schedule.
-	\item 
 \end{itemize}
+
+
 
 \section{Integrated Time- and Event-Triggered Scheduling: Overhead analysis on ARM Architecture.}
 \subsection*{Main Idea}
@@ -138,4 +139,27 @@ Analyses the slot shifting approach to integrate time triggered and event trigge
 	\item Memory overhead analysis.
 \end{itemize}
 
-
+\section{RTOS support for mixed time-triggered and event-triggered task sets}
+\subsection*{Main Idea}
+Extend an off the shelf RTOS(In this case $\mu$C/OS-II) with time triggered implementation and slot shifting to support time-triggered and event triggered tasks.\\
+Tasks executed based on earliest deadline first and aperiodic tasks accommodated  if it passes a predefined acceptance test(As is the case in above paper using slack).
+\begin{itemize}
+	\item Implements dynamic slot shifting.
+	\item Additionally implements an enhanced mechanism for slack reclamation from periodic tasks.(Based on the fact that periodic task may finish before there specified WCET, thus proving more slack than computed based on an offline algorithm.) 
+\end{itemize} 
+\subsubsection*{Some key differentiation of slot shifting from other approaches}
+\begin{itemize}
+	\item Similar to the reservation based approach, distinguishing characteristics being:
+	\begin{itemize}
+		\item Lack of temporal isolation between tasks.
+		\item Tasks can execute over multiple budget(or Time Intervals, or Schedule Tables as is case with AUTOSAR).
+	\end{itemize}
+	\item Compared to hierarchical scheduling, provisioned spare capacity neither follows a periodic service pattern nor provides a constant service rate. Disjunct timing intervals created rather than regular intervals as in case of hierarchical approach.
+\end{itemize}
+\subsection*{Model and Notes}
+\begin{itemize}
+	\item New structure introduced similar to Task Control Block(TCB) - Interval Control Block(ICB), to store offline specified task intervals with tasks, count, start time, end time, spare capacity etc.
+	\item  Resource management done at tick ISR.
+	\item TCB extended to keep track of execution budget assigned/remaining and ICB to which the task belongs to.
+	\item Experiment section involves comparison of overhead in slot shifting with respect to Fixed Priority Scheduling and Earliest Deadline First Scheduling.
+\end{itemize}

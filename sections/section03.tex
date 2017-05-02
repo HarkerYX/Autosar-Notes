@@ -104,3 +104,16 @@ Each schedule table is defined by a set of ticks and the os module will iterate 
 	\item The blocking time from lower priority tasks is prevented by \textit{locking time protection} to guarantee a statically configured upper bound.\\ In case of a timing error due to locking operating system module shall call \textit{ProtectionHook()} with E\_OS\_PROTECTION\_LOCKED.
 	\item \textit{inter-arrival timing protection} guarantee a statically configured lower bound called \textbf{Time frame} on the time between a task being permitted to transition to READY state or a category 2 ISR arriving. If an attempt is made to release a task before OsTaskTimeFrame, then the operating system module shall not perform the release and shall call protectionHook() with E\_OS\_PROTECTION\_ARRIVAL.
 \end{itemize}
+\subsection{Mode Change Support}
+An AUTOSAR complaint system can implement mode management support as per AUTOSAR Mode Management Guide.\\
+A mode as per AUTOSAR specification specifies state of ECU wide global variable maintained at scheduler level.\\
+Mode management in AUTOSAR specifically aim to pipeline or synchronise execution of software entities. E.g. Specific modules can be enabled or disabled depending on a mode characteristic or multiple modules can be triggered in an order specified by a set of mode conditions.\\
+\begin{itemize}
+	\item Mode management consists of two parties: A mode manager and set of users who can subscribe to the same.
+	\item Mode users are notified through defined set of mode switches, which can read for currently active mode.	
+	\item Two distinctive type of mode communication exists between mode manager and mode user:
+	\begin{itemize}
+		\item \textbf{Mode Switch}: In mode switch, mode manager notifies all the registered users through registered switches, of the transition from one mode to another.
+		\item \textbf{Mode Request}: Users trigger a request to mode manager to enter specific mode, which can be serviced by the mode manager or ignored.
+	\end{itemize}
+\end{itemize} 

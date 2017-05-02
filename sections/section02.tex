@@ -1,4 +1,10 @@
-\section{Cortex-R4}
+\section{Hardware Platform}
+The platform used for the experiments is TI Hercules TMS5703137.\\
+The platform is designed to conform to functional safety standards including ISO26262.
+The platform employs a dual core lockstep processing using cortex R4. 
+Some of the features which are important for providing AUTOSAR support are mentioned below.
+
+\subsection{Architecture: Cortex-R4}
 Cortex R4 processor is a midrange processor used in real-time systems.
 It implements ARM-V7R Architecture and supports THUMB-2 technology for optimum code density and processing throughput.
 The pipeline has single Arithmetic Logic Unit but uses limited dual-issuing to of instructions for efficient utilization of other resources such as registers.
@@ -10,7 +16,7 @@ An overall component level diagram of Cortex-R4 is shown below:
 \end{figure}
 
 The main features of the Cortex-R4 are listed below:
-\begin{itemize}{}{}
+\begin{itemize}
  \item A Dual issue integer unit with integral coresight logic.
  \item High speed Advanced Microprocessor Bus Architecture(AMBA) and Advance eXtensible Interface(AXI) for master and slave interfaces.
  \item Dynamic branch prediction with history buffer and 4-entry return stack.
@@ -119,3 +125,11 @@ Some use case of these memory barriers are:
 \end{itemize}
 
 
+\subsection{AUTOSAR Specific Features}
+This section covers the features of TMS5703137 platform which are significant in supporting AUTOSAR specifications.
+\subsubsection{Timing Protection Support}
+\begin{itemize}
+	\item \textbf{RTI}:\\ Real Time Interrupt(RTI) provides a time tick source to drive the schedule tables in AUTOSAR. 
+\end{itemize}
+\subsection{Memory Protection Support}
+\subsection{Interrupt Vector Table and Peripherals.}

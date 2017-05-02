@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.23)  29 MAR 2017 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.23)  27 APR 2017 11:51
 entering extended mode
 **./AutosarNotes.tex
 (AutosarNotes.tex
@@ -1871,15 +1871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[2]
-<Pictures/automotive_electronics_overview.pdf, id=22, 845.04686pt x 597.50786pt
->
-File: Pictures/automotive_electronics_overview.pdf Graphic file (type pdf)
- <use Pictures/automotive_electronics_overview.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics_overview.pdf used on i
-nput line 108.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (AutosarNotes.toc
+[2] (AutosarNotes.toc
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
@@ -1904,8 +1896,8 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 7.
  [3
 
- <./Pictures/automotive_electronics_overview.pdf>]
-Overfull \hbox (4.53609pt too wide) in paragraph at lines 71--71
+]
+Overfull \hbox (4.53609pt too wide) in paragraph at lines 77--77
  []|| [][]\T1/pag/db/n/10.95 Evaluation and Im-ple-men-ta-tion of Mixed-Critica
 lity Schedul-ing Ap-proaches
  []
@@ -1923,18 +1915,18 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <220> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 118.
  (AutosarNotes.ptc
-Underfull \hbox (badness 2717) in paragraph at lines 84--84
+Underfull \hbox (badness 2717) in paragraph at lines 90--90
 []|| [][]\T1/pag/m/n/10 (+20) Mitigating Tim-ing Er-ror Prop-a-ga-tion in Mixed
 -
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 102--102
+Underfull \hbox (badness 1546) in paragraph at lines 108--108
 []|| [][]\T1/pag/m/n/10 (+20) Schedule Ta-ble Gen-er-a-tion for Time-Triggered
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 108--108
+Underfull \hbox (badness 2564) in paragraph at lines 114--114
 []|| [][]\T1/pag/m/n/10 (+20) Mixed-Criticality Schedul-ing in Time Trig-gered
  []
 
@@ -1947,19 +1939,12 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
 
 ] [8]
 Chapter 1.
-<Pictures/automotive_electronics.pdf, id=358, 845.04686pt x 597.50786pt>
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 126.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section01.tex
+(sections/section01.tex
 Underfull \vbox (badness 1400) has occurred while \output is active []
 
  [9
 
- <./Pictures/automotive_electronics.pdf>]
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10])
@@ -1975,39 +1960,32 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 [11] [12]
 Chapter 2.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 171.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section02.tex
-<Pictures/CortexR4.pdf, id=387, 642.4pt x 481.8pt>
+(sections/section02.tex <Pictures/CortexR4.pdf, id=390, 642.4pt x 481.8pt>
 File: Pictures/CortexR4.pdf Graphic file (type pdf)
- <use Pictures/CortexR4.pdf>
-Package pdftex.def Info: Pictures/CortexR4.pdf used on input line 9.
+
+<use Pictures/CortexR4.pdf>
+Package pdftex.def Info: Pictures/CortexR4.pdf used on input line 15.
 (pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13
 
- <./Pictures/CortexR4.pdf>]
+]
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 34.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 97--105
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 40.
+ [14 <./Pictures/CortexR4.pdf>] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
 
  []
 
-[15]) [16]
+) [16]
 Chapter 3.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 174.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section03.tex
-<Pictures/BSW_Schduler.png, id=420, 831.105pt x 699.61375pt>
+(sections/section03.tex
+<Pictures/BSW_Schduler.png, id=425, 831.105pt x 699.61375pt>
 File: Pictures/BSW_Schduler.png Graphic file (type png)
 
 <use Pictures/BSW_Schduler.png>
@@ -2016,14 +1994,14 @@ Package pdftex.def Info: Pictures/BSW_Schduler.png used on input line 30.
  [17
 
 ] [18 <./Pictures/BSW_Schduler.png>]
-<Pictures/Global_Time_Base.png, id=429, 895.345pt x 579.16376pt>
+<Pictures/Global_Time_Base.png, id=434, 895.345pt x 579.16376pt>
 File: Pictures/Global_Time_Base.png Graphic file (type png)
 
 <use Pictures/Global_Time_Base.png>
 Package pdftex.def Info: Pictures/Global_Time_Base.png used on input line 68.
 (pdftex.def)             Requested size: 447.6714pt x 289.58116pt.
 
-<Pictures/Schedule_Table.png, id=430, 992.70876pt x 393.47pt>
+<Pictures/Schedule_Table.png, id=435, 992.70876pt x 393.47pt>
 File: Pictures/Schedule_Table.png Graphic file (type png)
 
 <use Pictures/Schedule_Table.png>
@@ -2035,16 +2013,16 @@ Underfull \vbox (badness 1622) has occurred while \output is active []
  [19 <./Pictures/Global_Time_Base.png>] [20 <./Pictures/Schedule_Table.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 103.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+
+ []
+
 ) [21] [22
 
 ]
 Chapter 4.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 177.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section04.tex
+(sections/section04.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
@@ -2052,7 +2030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 [23]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
- <Pictures/Elasic_algo.png, id=454, 544.0325pt x 911.405pt>
+ <Pictures/Elasic_algo.png, id=459, 544.0325pt x 911.405pt>
 File: Pictures/Elasic_algo.png Graphic file (type png)
 
 <use Pictures/Elasic_algo.png>
@@ -2067,7 +2045,7 @@ Overfull \hbox (17.0pt too wide) in paragraph at lines 39--43
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<Pictures/Adaptation_Manager.png, id=460, 679.53876pt x 312.16624pt>
+<Pictures/Adaptation_Manager.png, id=465, 679.53876pt x 312.16624pt>
 File: Pictures/Adaptation_Manager.png Graphic file (type png)
 
 <use Pictures/Adaptation_Manager.png>
@@ -2086,14 +2064,14 @@ l-ing Ap-proaches
  []
 
 ) (sections/paper01.tex [26 <./Pictures/Adaptation_Manager.png>]
-<Pictures/Grinder_Extension.png, id=471, 607.26875pt x 220.825pt>
+<Pictures/Grinder_Extension.png, id=476, 607.26875pt x 220.825pt>
 File: Pictures/Grinder_Extension.png Graphic file (type png)
 
 <use Pictures/Grinder_Extension.png>
 Package pdftex.def Info: Pictures/Grinder_Extension.png used on input line 36.
 (pdftex.def)             Requested size: 400.0pt x 145.45853pt.
 
-<Pictures/GRINDER_Arch.png, id=472, 676.5275pt x 292.09125pt>
+<Pictures/GRINDER_Arch.png, id=477, 676.5275pt x 292.09125pt>
 File: Pictures/GRINDER_Arch.png Graphic file (type png)
 
 <use Pictures/GRINDER_Arch.png>
@@ -2103,13 +2081,13 @@ Package pdftex.def Info: Pictures/GRINDER_Arch.png used on input line 43.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./Pictures/Grinder_Extension.png>]
-<Pictures/ABS.png, id=480, 601.24625pt x 372.39125pt>
+<Pictures/ABS.png, id=485, 601.24625pt x 372.39125pt>
 File: Pictures/ABS.png Graphic file (type png)
  <use Pictures/ABS.png>
 Package pdftex.def Info: Pictures/ABS.png used on input line 51.
 (pdftex.def)             Requested size: 400.0pt x 247.7564pt.
 
-<Pictures/Task.png, id=481, 562.1pt x 196.735pt>
+<Pictures/Task.png, id=486, 562.1pt x 196.735pt>
 File: Pictures/Task.png Graphic file (type png)
  <use Pictures/Task.png>
 Package pdftex.def Info: Pictures/Task.png used on input line 65.
@@ -2119,7 +2097,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./Pictures/GRINDER_Arch.png> <./Pictures/ABS.png>]) (sections/paper02.tex
  [29 <./Pictures/Task.png>]) (sections/paper03.tex
-<Pictures/Autosar_TTI_Bound.png, id=497, 902.37125pt x 201.75375pt>
+<Pictures/Autosar_TTI_Bound.png, id=502, 902.37125pt x 201.75375pt>
 File: Pictures/Autosar_TTI_Bound.png Graphic file (type png)
 
 <use Pictures/Autosar_TTI_Bound.png>
@@ -2133,7 +2111,7 @@ Overfull \hbox (1.37585pt too wide) in paragraph at lines 2--2
 
 [30 <./Pictures/Autosar_TTI_Bound.png>]) (sections/paper05.tex)
 (sections/paper06.tex [31]) (sections/paper07.tex [32]) (sections/paper08.tex
-<Pictures/paper08_schedule.pdf, id=527, 597.50786pt x 845.04686pt>
+<Pictures/paper08_schedule.pdf, id=532, 597.50786pt x 845.04686pt>
 File: Pictures/paper08_schedule.pdf Graphic file (type pdf)
 
 <use Pictures/paper08_schedule.pdf>
@@ -2154,12 +2132,7 @@ Package Fancyhdr Warning: \headheight is too small (14.5pt):
 
 [37]) [38]
 Chapter 5.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 189.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/control01.tex
+(sections/control01.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -2173,12 +2146,7 @@ put line 33.
 
 ]
 Chapter 6.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 193.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/design01.tex
+(sections/design01.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2.
@@ -2187,17 +2155,11 @@ LaTeX Warning: No positions in optional float specifier.
 
 ]
 Chapter 7.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 195.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- (sections/section07.tex)
-(sections/section08.tex) (sections/test03.tex
+(sections/section07.tex) (sections/section08.tex) (sections/test03.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
-<Pictures/Event-chain.png, id=630, 655.44875pt x 430.60875pt>
+<Pictures/Event-chain.png, id=638, 655.44875pt x 430.60875pt>
 File: Pictures/Event-chain.png Graphic file (type png)
 
 <use Pictures/Event-chain.png>
@@ -2214,21 +2176,9 @@ Package Fancyhdr Warning: \headheight is too small (14.5pt):
 
 ]
 Chapter 8.
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 199.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
- [49] [50
+[49] [50
 
 ]
-File: Pictures/automotive_electronics.pdf Graphic file (type pdf)
-
-<use Pictures/automotive_electronics.pdf>
-Package pdftex.def Info: Pictures/automotive_electronics.pdf used on input line
- 386.
-(pdftex.def)             Requested size: 597.50787pt x 422.50127pt.
-
 
 Package biblatex Warning: Type 'book' not found on input line 390.
 
@@ -2270,20 +2220,20 @@ Package logreq Info: Writing requests to 'AutosarNotes.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35635 strings out of 493335
- 652858 string characters out of 3139260
+ 35634 strings out of 493335
+ 652553 string characters out of 3139260
  1190752 words of memory out of 3000000
- 38081 multiletter control sequences out of 15000+200000
+ 38074 multiletter control sequences out of 15000+200000
  135017 words of font info for 314 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,55p,10517b,2526s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.62} has been referenced but does not exi
+pdfTeX warning (dest): name{section*.66} has been referenced but does not exi
 st, replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.59} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.63} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter*.58} has been referenced but does not exist
+pdfTeX warning (dest): name{chapter*.62} has been referenced but does not exist
 , replaced by a fixed one
 
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\bibin\A
@@ -2296,9 +2246,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on AutosarNotes.pdf (52 pages, 1537747 bytes).
+Output written on AutosarNotes.pdf (52 pages, 973520 bytes).
 PDF statistics:
- 906 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
- 63957 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 918 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 63955 words of extra memory for PDF output out of 74296 (max. 10000000)
 
